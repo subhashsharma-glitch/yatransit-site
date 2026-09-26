@@ -1,0 +1,12 @@
+# Local-only files (not part of the published site)
+screenshots/
+_dev/
+
+# OS / editor / tooling cruft
+.DS_Store
+Thumbs.db
+node_modules/
+__pycache__/
+*.pyc
+.vscode/
+.idea/
