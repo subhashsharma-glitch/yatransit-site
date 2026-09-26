@@ -9,13 +9,13 @@ index.html          Home page (all main sections, anchor navigation)
 privacy.html        Privacy notice – DRAFT TEMPLATE, review before publishing
 404.html            "Page not found" page (GitHub Pages uses it automatically)
 css/styles.css      All styles
-js/main.js          Mobile menu, form validation and thank-you message
+js/main.js          Mobile menu and footer year
 favicon.svg / .ico  Browser icons
 assets/             Logos (SVG), Apple touch icon, social sharing image, fonts
 robots.txt, sitemap.xml
-screenshots/        Preview images (not needed on the live site – delete before publishing if you like)
+screenshots/        Preview images (local only – excluded from the repository by .gitignore)
 _dev/               Helper scripts used to make the screenshots, icons and social image
-                    (Python + Playwright). Folders starting with _ are not published by GitHub Pages.
+                    (Python + Playwright). Local only – excluded from the repository by .gitignore.
 ```
 
 ## Preview locally
@@ -33,23 +33,9 @@ Search the files for `[` to find them all:
 
 - `[Date]` – "Last updated" date on the privacy notice.
 - `[ICO registration number, if applicable]` – privacy notice (check whether you need to pay the ICO data protection fee).
-- `[Form provider, e.g. Formspree]`, `[Email/newsletter provider, if used]`, safeguards for international transfers and the `[retention period]` – privacy notice.
+- `[Email hosting provider for hello@yatransit.co.uk, e.g. IONOS]`, safeguards for international transfers and the `[retention period]` – privacy notice.
 - `hello@yatransit.co.uk` – make sure this mailbox exists (or change it everywhere).
 - Remove the yellow "Draft template" box from `privacy.html` once finalised.
-
-## Connecting the registration form
-
-GitHub Pages only serves static files, so the form needs an external form service. Until you connect one, the form shows the thank-you message but **sends nothing**.
-
-Using [Formspree](https://formspree.io) (other services such as Basin or Getform work the same way):
-
-1. Create a free Formspree account and a new form. Copy its endpoint, e.g. `https://formspree.io/f/abcdwxyz`.
-2. In `index.html`, find the `<form id="interest-form" ...>` tag (there is a comment block above it) and change `action="#"` to your endpoint. Keep `method="POST"`.
-3. That's it – `js/main.js` automatically sends the form to that address in the background and shows the thank-you message. The hidden `_gotcha` field is Formspree's spam honeypot.
-4. Submit a test entry and confirm it arrives. In Formspree's settings you can restrict submissions to your domain.
-5. Update `privacy.html` to name the provider.
-
-Because the consent box is for marketing emails, keep a record of consents (Formspree stores each submission with a timestamp) and include an unsubscribe link in every update email.
 
 ## Publishing free on GitHub Pages with your custom domain
 
