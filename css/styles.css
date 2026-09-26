@@ -603,6 +603,19 @@ section[id] { scroll-margin-top: calc(var(--header-h) + 8px); }
 .footer-heading { font-family: var(--font-body); font-size: 0.8125rem; text-transform: uppercase; letter-spacing: 0.14em; color: var(--white); margin-bottom: 12px; }
 .site-footer .footer-legal { padding-top: 28px; font-size: 0.8125rem; color: #95A3B8; }
 .footer-legal p { margin: 0 0 6px; }
+.footer-social { margin-top: 18px; }
+.site-footer .x-link, .x-link { display: inline-flex; align-items: center; gap: 10px; color: var(--slate-200); text-decoration: none; }
+.x-link strong { color: var(--teal); font-weight: 600; }
+.x-badge {
+  display: inline-flex; align-items: center; justify-content: center; flex: 0 0 auto;
+  width: 32px; height: 32px; border-radius: 50%;
+  color: var(--white); background: rgba(46, 230, 197, 0.12); border: 1px solid rgba(46, 230, 197, 0.35);
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+.x-link:hover .x-badge { background: var(--teal); color: var(--navy-950); }
+.site-footer .x-link:hover, .x-link:hover { color: var(--white); text-decoration: none; }
+.x-link:hover span:not(.x-badge) { text-decoration: underline; text-underline-offset: 3px; }
+.footer-social-404 { margin: 28px 0 0; }
 
 /* ---------- Privacy page ---------- */
 .page-hero {
