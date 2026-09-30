@@ -7,6 +7,8 @@ Static website for **Yorkshire Autonomous Transit Ltd** (YA Transit). Plain HTML
 ```
 index.html          Home page (all main sections, anchor navigation)
 privacy.html        Privacy notice – DRAFT TEMPLATE, review before publishing
+resources.html      Resources page – free downloadable guides and templates
+resources/          Published downloads, their WebP thumbnails and published.json (manifest)
 404.html            "Page not found" page (GitHub Pages uses it automatically)
 css/styles.css      All styles
 js/main.js          Mobile menu and footer year
@@ -17,6 +19,13 @@ screenshots/        Preview images (local only – excluded from the repository 
 _dev/               Helper scripts used to make the screenshots, icons and social image
                     (Python + Playwright). Local only – excluded from the repository by .gitignore.
 ```
+
+## Adding a download to the Resources page
+
+1. Copy the file into `resources/` with a lowercase, URL-safe name (e.g. `my-guide.pdf`). Don't edit the original; edit the copy if anything needs changing.
+2. Add a thumbnail as a WebP about 480 px wide (4:5 like the others), e.g. `resources/my-guide-thumb.webp`.
+3. Copy one of the `<article class="resource-card">` blocks in `resources.html` and update the title, description, file type, size and links.
+4. Add an entry to `resources/published.json` with the source path and the date published.
 
 ## Preview locally
 

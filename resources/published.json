@@ -1,0 +1,84 @@
+{
+  "description": "Documents published on the Resources page (resources.html). To add one: copy the file(s) into /resources with a lowercase URL-safe name, add a WebP thumbnail about 480 px wide, add a card to resources.html, and add an entry here.",
+  "page": "https://yatransit.co.uk/resources.html",
+  "updated": "2026-09-30",
+  "documents": [
+    {
+      "id": "aws-explained-simply",
+      "title": "AWS Explained Simply",
+      "type": "Cheat sheet",
+      "description": "A plain-English guide to 40 must-know AWS services.",
+      "date_published": "2026-09-30",
+      "thumbnail": {
+        "file": "resources/aws-explained-simply-thumb.webp",
+        "source": "/workspace/aws-cheatsheet/previews/preview-01-cover.png"
+      },
+      "files": [
+        {
+          "format": "PDF",
+          "file": "resources/aws-explained-simply-cheat-sheet.pdf",
+          "url": "https://yatransit.co.uk/resources/aws-explained-simply-cheat-sheet.pdf",
+          "content_type": "application/pdf",
+          "bytes": 1427251,
+          "pages": 13,
+          "source": "/workspace/aws-cheatsheet/AWS-Cheat-Sheet-Subhash-Sharma.pdf",
+          "changes": "none (copied verbatim)"
+        }
+      ]
+    },
+    {
+      "id": "kubernetes-explained-simply",
+      "title": "Kubernetes Explained Simply",
+      "type": "Cheat sheet",
+      "description": "Covers the core concepts and 40+ everyday kubectl commands.",
+      "date_published": "2026-09-30",
+      "thumbnail": {
+        "file": "resources/kubernetes-explained-simply-thumb.webp",
+        "source": "/workspace/k8s-cheatsheet/previews/preview-01-cover.png"
+      },
+      "files": [
+        {
+          "format": "PDF",
+          "file": "resources/kubernetes-explained-simply-cheat-sheet.pdf",
+          "url": "https://yatransit.co.uk/resources/kubernetes-explained-simply-cheat-sheet.pdf",
+          "content_type": "application/pdf",
+          "bytes": 874681,
+          "pages": 14,
+          "source": "/workspace/k8s-cheatsheet/Kubernetes-Cheat-Sheet-Subhash-Sharma.pdf",
+          "changes": "none (copied verbatim)"
+        }
+      ]
+    },
+    {
+      "id": "on-call-shift-handover-template",
+      "title": "On-Call & Shift Handover Template",
+      "type": "Template",
+      "description": "A template for application support teams to fill in at every shift change or on-call handover.",
+      "date_published": "2026-09-30",
+      "thumbnail": {
+        "file": "resources/on-call-shift-handover-template-thumb.webp",
+        "source": "generated: HTML card rendered with headless Chrome (site style)"
+      },
+      "files": [
+        {
+          "format": "Word",
+          "file": "resources/on-call-shift-handover-template.docx",
+          "url": "https://yatransit.co.uk/resources/on-call-shift-handover-template.docx",
+          "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "bytes": 13796,
+          "source": "/workspace/handover-template/On-Call-Shift-Handover-Template.docx",
+          "changes": "Removed the placeholder link 'Get the full kit here' (pointed to #) from the final line; sentence kept as plain text."
+        },
+        {
+          "format": "Markdown",
+          "file": "resources/on-call-shift-handover-template.md",
+          "url": "https://yatransit.co.uk/resources/on-call-shift-handover-template.md",
+          "content_type": "text/markdown",
+          "bytes": 3850,
+          "source": "/workspace/handover-template/On-Call-Shift-Handover-Template.md",
+          "changes": "Removed the placeholder link 'Get the full kit here' (pointed to #) from the final line; sentence kept as plain text."
+        }
+      ]
+    }
+  ]
+}
