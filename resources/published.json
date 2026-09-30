@@ -50,6 +50,29 @@
       ]
     },
     {
+      "id": "d365-fo-explained-simply",
+      "title": "D365 F&O Explained Simply",
+      "type": "Cheat sheet",
+      "description": "A 14-page plain-English first-week guide to Dynamics 365 Finance & Operations: key terms, the screen, everyday journal, voucher and PO tasks, shortcuts, Copilot and common beginner mistakes.",
+      "date_published": "2026-09-30",
+      "thumbnail": {
+        "file": "resources/d365-fo-explained-simply-thumb.webp",
+        "source": "/workspace/d365-cheatsheet/previews/cover-01.png"
+      },
+      "files": [
+        {
+          "format": "PDF",
+          "file": "resources/d365-fo-explained-simply-cheat-sheet.pdf",
+          "url": "https://yatransit.co.uk/resources/d365-fo-explained-simply-cheat-sheet.pdf",
+          "content_type": "application/pdf",
+          "bytes": 1518379,
+          "pages": 14,
+          "source": "/workspace/d365-cheatsheet/D365-Cheat-Sheet-Subhash-Sharma.pdf",
+          "changes": "none (copied verbatim)"
+        }
+      ]
+    },
+    {
       "id": "on-call-shift-handover-template",
       "title": "On-Call & Shift Handover Template",
       "type": "Template",
