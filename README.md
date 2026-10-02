@@ -42,7 +42,7 @@ The news pages are plain HTML. To add one by hand:
 
 ## Forms (FormSubmit)
 
-Both forms post to `https://formsubmit.co/hello@yatransit.co.uk` (or the random alias FormSubmit gives after activation). Each has a hidden `_honey` honeypot field, `_captcha=false` (no Google reCAPTCHA), `_template=table` and `_next` pointing at `thanks.html`. The very first submission makes FormSubmit send an activation email to hello@yatransit.co.uk; forms only deliver after the link in it is clicked. Briefing sign-ups arrive as emails; there is no mailing-list tool, so keep the list (and unsubscribes) yourself.
+Both forms post to `https://formsubmit.co/7b9ac021329bbe6ac2b7830b0eee257e`, the random alias FormSubmit issued for hello@yatransit.co.uk when the forms were activated on 2 October 2026 (it keeps the email address out of the page source). Each has a hidden `_honey` honeypot field, `_captcha=false` (no Google reCAPTCHA), `_template=table` and `_next` pointing at `thanks.html`. Activation is per website: if the forms ever move to another domain, the first submission there triggers a new activation email to hello@yatransit.co.uk. Briefing sign-ups arrive as emails; there is no mailing-list tool, so keep the list (and unsubscribes) yourself.
 
 ## Preview locally
 
