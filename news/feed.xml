@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>YA Transit News &amp; Insights</title>
+    <link>https://yatransit.co.uk/news/</link>
+    <atom:link href="https://yatransit.co.uk/news/feed.xml" rel="self" type="application/rss+xml"/>
+    <description>Plain-English news and explainers on self-driving vehicles in the UK, from YA Transit (Yorkshire Autonomous Transit Ltd).</description>
+    <language>en-gb</language>
+    <lastBuildDate>Fri, 02 Oct 2026 09:00:00 +0100</lastBuildDate>
+    <item>
+      <title>When will driverless taxis come to York, Leeds and Manchester?</title>
+      <link>https://yatransit.co.uk/news/driverless-taxis-york-leeds-manchester.html</link>
+      <guid isPermaLink="true">https://yatransit.co.uk/news/driverless-taxis-york-leeds-manchester.html</guid>
+      <pubDate>Fri, 02 Oct 2026 09:00:00 +0100</pubDate>
+      <dc:creator>YA Transit</dc:creator>
+      <description>Where the UK’s self-driving rules stand in October 2026, what has to happen before a driverless taxi can carry passengers in the North, and why London is going first.</description>
+    </item>
+    <item>
+      <title>The Automated Vehicles Act explained in plain English</title>
+      <link>https://yatransit.co.uk/news/automated-vehicles-act-explained.html</link>
+      <guid isPermaLink="true">https://yatransit.co.uk/news/automated-vehicles-act-explained.html</guid>
+      <pubDate>Fri, 02 Oct 2026 09:00:00 +0100</pubDate>
+      <dc:creator>YA Transit</dc:creator>
+      <description>What the Automated Vehicles Act 2024 says about self-driving cars: the self-driving test, who is responsible, what happens to the person in the driving seat, marketing rules and passenger permits.</description>
+    </item>
+    <item>
+      <title>Who’s building self-driving cars for UK roads?</title>
+      <link>https://yatransit.co.uk/news/who-is-building-self-driving-cars-uk.html</link>
+      <guid isPermaLink="true">https://yatransit.co.uk/news/who-is-building-self-driving-cars-uk.html</guid>
+      <pubDate>Fri, 02 Oct 2026 09:00:00 +0100</pubDate>
+      <dc:creator>YA Transit</dc:creator>
+      <description>A plain-English round-up of the companies testing or planning self-driving vehicles in the UK as of October 2026: Wayve and Uber, Waymo, Baidu, Oxa and Tesla.</description>
+    </item>
+  </channel>
+</rss>

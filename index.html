@@ -26,6 +26,7 @@
   <link rel="preload" href="assets/fonts/space-grotesk-latin-var.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="css/styles.css">
   <script src="js/main.js" defer></script>
+  <link rel="alternate" type="application/rss+xml" title="YA Transit News &amp; Insights" href="https://yatransit.co.uk/news/feed.xml">
 
   <!-- Structured data for search engines -->
   <script type="application/ld+json">
@@ -70,6 +71,7 @@
           <li><a href="#why-autonomous">Why autonomous</a></li>
           <li><a href="#roadmap">Road to launch</a></li>
           <li><a href="#faq">FAQ</a></li>
+          <li><a href="news/">News</a></li>
           <li><a href="resources.html">Resources</a></li>
         </ul>
       </nav>
@@ -397,8 +399,42 @@
       </div>
     </section>
 
+    <!-- ================= NEWS TEASER ================= -->
+    <section class="section section-light" id="news" aria-labelledby="news-title">
+      <div class="container">
+        <div class="section-head">
+          <p class="kicker">News &amp; Insights</p>
+          <h2 id="news-title">Latest from News &amp; Insights</h2>
+          <p>Plain-English explainers on the UK’s self-driving rules and the companies working on them.</p>
+        </div>
+        <div class="news-grid">
+        <article class="news-card">
+          <p class="news-meta"><time datetime="2026-10-02">2 October 2026</time> &middot; YA Transit</p>
+          <h3 class="news-title"><a href="news/driverless-taxis-york-leeds-manchester.html">When will driverless taxis come to York, Leeds and Manchester?</a></h3>
+          <p class="news-excerpt">Where the UK’s self-driving rules stand in October 2026, what has to happen before a driverless taxi can carry passengers in the North, and why London is going first.</p>
+          <a class="news-more" href="news/driverless-taxis-york-leeds-manchester.html" aria-hidden="true" tabindex="-1">Read article <span aria-hidden="true">&rarr;</span></a>
+        </article>
+        <article class="news-card">
+          <p class="news-meta"><time datetime="2026-10-02">2 October 2026</time> &middot; YA Transit</p>
+          <h3 class="news-title"><a href="news/automated-vehicles-act-explained.html">The Automated Vehicles Act explained in plain English</a></h3>
+          <p class="news-excerpt">What the Automated Vehicles Act 2024 says about self-driving cars: the self-driving test, who is responsible, what happens to the person in the driving seat, marketing rules and passenger permits.</p>
+          <a class="news-more" href="news/automated-vehicles-act-explained.html" aria-hidden="true" tabindex="-1">Read article <span aria-hidden="true">&rarr;</span></a>
+        </article>
+        <article class="news-card">
+          <p class="news-meta"><time datetime="2026-10-02">2 October 2026</time> &middot; YA Transit</p>
+          <h3 class="news-title"><a href="news/who-is-building-self-driving-cars-uk.html">Who’s building self-driving cars for UK roads?</a></h3>
+          <p class="news-excerpt">A plain-English round-up of the companies testing or planning self-driving vehicles in the UK as of October 2026: Wayve and Uber, Waymo, Baidu, Oxa and Tesla.</p>
+          <a class="news-more" href="news/who-is-building-self-driving-cars-uk.html" aria-hidden="true" tabindex="-1">Read article <span aria-hidden="true">&rarr;</span></a>
+        </article>
+        </div>
+        <div class="news-teaser-actions">
+          <a class="btn btn-outline" href="news/">All news &amp; insights</a>
+        </div>
+      </div>
+    </section>
+
     <!-- ============ FAQ ============ -->
-    <section class="section section-light" id="faq" aria-labelledby="faq-title">
+    <section class="section section-white" id="faq" aria-labelledby="faq-title">
       <div class="container container-narrow">
         <div class="section-head">
           <p class="kicker">FAQ</p>
@@ -432,10 +468,48 @@
           <details>
             <summary>How can I get updates?</summary>
             <div class="faq-body">
-              <p>For news and updates, follow us on X at <a href="https://x.com/yatransit" target="_blank" rel="noopener">@yatransit</a>. For any other enquiries, please email us at <a href="mailto:hello@yatransit.co.uk">hello@yatransit.co.uk</a>.</p>
+              <p>Sign up for the <a href="#briefing">monthly YA Transit briefing</a>, read our <a href="news/">News &amp; Insights</a>, or follow us on X at <a href="https://x.com/yatransit" target="_blank" rel="noopener">@yatransit</a>. If you travel between York, Leeds or Manchester, you can also help shape our plans by taking our <a href="survey.html">route survey</a>. For any other enquiries, please email us at <a href="mailto:hello@yatransit.co.uk">hello@yatransit.co.uk</a>.</p>
             </div>
           </details>
         </div>
+      </div>
+    </section>
+
+    <section class="section briefing" id="briefing" aria-labelledby="briefing-title">
+      <div class="container briefing-inner">
+        <div class="briefing-copy">
+          <p class="kicker kicker-light">Monthly briefing</p>
+          <h2 id="briefing-title">Get the monthly YA Transit briefing</h2>
+          <p>One short email a month on our progress and the latest on self-driving rules and services in the UK.</p>
+          <p class="briefing-survey">Travel between York, Leeds or Manchester? <a href="survey.html">Take our route survey</a>.</p>
+        </div>
+        <form class="yat-form briefing-form" action="https://formsubmit.co/hello@yatransit.co.uk" method="POST" data-yat-form>
+          <input type="hidden" name="_subject" value="YA Transit: new monthly briefing sign-up">
+          <input type="hidden" name="_next" value="https://yatransit.co.uk/thanks.html?form=briefing">
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_template" value="table">
+          <input type="hidden" name="Form" value="Monthly briefing sign-up">
+          <input type="hidden" name="Page" value="/">
+          <div class="hp-field" aria-hidden="true"><label for="briefing-hp">Leave this field empty</label><input type="text" id="briefing-hp" name="_honey" tabindex="-1" autocomplete="off"></div>
+          <div class="form-row">
+            <div class="field">
+              <label for="briefing-name">First name <span class="optional">(optional)</span></label>
+              <input id="briefing-name" name="First name" type="text" autocomplete="given-name" maxlength="80">
+            </div>
+            <div class="field">
+              <label for="briefing-email">Email address</label>
+              <input id="briefing-email" name="email" type="email" autocomplete="email" inputmode="email" required maxlength="200">
+            </div>
+          </div>
+          <div class="field">
+            <label class="check">
+              <input type="checkbox" name="Consent to monthly briefing" value="Yes: ticked the box agreeing to receive the monthly YA Transit briefing by email" required>
+              <span>Yes, please email me the monthly YA Transit briefing. I understand I can unsubscribe at any time by emailing <a href="mailto:hello@yatransit.co.uk">hello@yatransit.co.uk</a>. See our <a href="privacy.html#briefing-data">privacy notice</a>.</span>
+            </label>
+          </div>
+          <button class="btn btn-primary" type="submit">Sign up</button>
+          <p class="form-note">Your details reach us through FormSubmit, the service that processes our forms. We won’t sell them or share them for anyone else’s marketing.</p>
+        </form>
       </div>
     </section>
   </main>
@@ -451,7 +525,9 @@
           <li><a href="#about">About</a></li>
           <li><a href="#routes">Routes</a></li>
           <li><a href="#faq">FAQ</a></li>
+          <li><a href="news/">News</a></li>
           <li><a href="resources.html">Resources</a></li>
+          <li><a href="survey.html">Route survey</a></li>
           <li><a href="privacy.html">Privacy notice</a></li>
         </ul>
       </nav>

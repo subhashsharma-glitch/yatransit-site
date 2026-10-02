@@ -1,6 +1,6 @@
 # YA Transit website (first draft)
 
-Static website for **Yorkshire Autonomous Transit Ltd** (YA Transit). Plain HTML, CSS and a small amount of vanilla JavaScript. No build step, no dependencies, no cookies or third-party requests. Fonts (Inter and Space Grotesk, SIL Open Font Licence) are hosted in `assets/fonts/`.
+Static website for **Yorkshire Autonomous Transit Ltd** (YA Transit). Plain HTML, CSS and a small amount of vanilla JavaScript. No build step and no dependencies. The site itself sets no cookies; the two forms (monthly briefing and route survey) post to FormSubmit (formsubmit.co), a free third-party form service that emails submissions to hello@yatransit.co.uk. Fonts (Inter and Space Grotesk, SIL Open Font Licence) are hosted in `assets/fonts/`.
 
 ## Files
 
@@ -8,10 +8,13 @@ Static website for **Yorkshire Autonomous Transit Ltd** (YA Transit). Plain HTML
 index.html          Home page (all main sections, anchor navigation)
 privacy.html        Privacy notice – DRAFT TEMPLATE, review before publishing
 resources.html      Resources page – free downloadable guides and templates
+news/               News & Insights: index.html, one page per article, feed.xml (RSS)
+survey.html         Route survey (FormSubmit form)
+thanks.html         Thank-you page the forms return to (?form=briefing or ?form=survey)
 resources/          Published downloads, their WebP thumbnails and published.json (manifest)
 404.html            "Page not found" page (GitHub Pages uses it automatically)
 css/styles.css      All styles
-js/main.js          Mobile menu and footer year
+js/main.js          Mobile menu, footer year, form checks and thank-you message
 favicon.svg / .ico  Browser icons
 assets/             Logos (SVG), Apple touch icon, social sharing image, fonts
 robots.txt, sitemap.xml
@@ -26,6 +29,20 @@ _dev/               Helper scripts used to make the screenshots, icons and socia
 2. Add a thumbnail as a WebP about 480 px wide (4:5 like the others), e.g. `resources/my-guide-thumb.webp`.
 3. Copy one of the `<article class="resource-card">` blocks in `resources.html` and update the title, description, file type, size and links.
 4. Add an entry to `resources/published.json` with the source path and the date published.
+
+## Adding a News & Insights article
+
+The news pages are plain HTML. To add one by hand:
+
+1. Copy an existing article in `news/`, give it a lowercase, URL-safe file name, and update the title, description, canonical/og URLs, JSON-LD, date, body and Sources list.
+2. Add a card for it at the top of `news/index.html` and in the "Latest from News & Insights" section of `index.html` (keep three cards there).
+3. Add an `<item>` to the top of `news/feed.xml` and a `<url>` to `sitemap.xml`.
+
+(On the build machine, `_dev/news_content.py` + `_dev/build_news.py` regenerate the news pages, feed, survey and thank-you page.)
+
+## Forms (FormSubmit)
+
+Both forms post to `https://formsubmit.co/hello@yatransit.co.uk` (or the random alias FormSubmit gives after activation). Each has a hidden `_honey` honeypot field, `_captcha=false` (no Google reCAPTCHA), `_template=table` and `_next` pointing at `thanks.html`. The very first submission makes FormSubmit send an activation email to hello@yatransit.co.uk; forms only deliver after the link in it is clicked. Briefing sign-ups arrive as emails; there is no mailing-list tool, so keep the list (and unsubscribes) yourself.
 
 ## Preview locally
 
@@ -43,6 +60,7 @@ Search the files for `[` to find them all:
 - `[Date]` – "Last updated" date on the privacy notice.
 - `[ICO registration number, if applicable]` – privacy notice (check whether you need to pay the ICO data protection fee).
 - `[Email hosting provider for hello@yatransit.co.uk, e.g. IONOS]`, safeguards for international transfers and the `[retention period]` – privacy notice.
+- FormSubmit's operator, data location and safeguards, and the survey retention period – privacy notice.
 - `hello@yatransit.co.uk` – make sure this mailbox exists (or change it everywhere).
 - Remove the yellow "Draft template" box from `privacy.html` once finalised.
 

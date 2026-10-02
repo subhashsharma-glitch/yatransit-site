@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Route survey | YA Transit</title>
+  <meta name="description" content="Tell us which journeys between York, Leeds and Manchester matter to you. A short survey to help YA Transit plan its routes.">
+  <meta name="theme-color" content="#0B1628">
+  <link rel="canonical" href="https://yatransit.co.uk/survey.html">
+
+  <!-- Open Graph / social sharing -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="YA Transit">
+  <meta property="og:title" content="Route survey | YA Transit">
+  <meta property="og:description" content="Tell us which journeys between York, Leeds and Manchester matter to you. A short survey to help YA Transit plan its routes.">
+  <meta property="og:url" content="https://yatransit.co.uk/survey.html">
+  <meta property="og:image" content="https://yatransit.co.uk/assets/og-image.jpg">
+  <meta property="og:locale" content="en_GB">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@yatransit">
+
+  <link rel="alternate" type="application/rss+xml" title="YA Transit News &amp; Insights" href="https://yatransit.co.uk/news/feed.xml">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="favicon.ico" sizes="32x32">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+  <link rel="preload" href="assets/fonts/inter-latin-var.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/space-grotesk-latin-var.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="YA Transit – home">
+        <img src="assets/logo-mark.svg" alt="" width="40" height="40">
+        <span class="brand-name">YA<span>Transit</span></span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span class="nav-toggle-bar" aria-hidden="true"></span>
+        <span class="visually-hidden">Menu</span>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Main">
+        <ul>
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#how-it-works">How it works</a></li>
+          <li><a href="index.html#routes">Routes</a></li>
+          <li><a href="index.html#faq">FAQ</a></li>
+          <li><a href="news/">News</a></li>
+          <li><a href="resources.html">Resources</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-hero" aria-labelledby="page-title">
+      <div class="container container-narrow">
+        <p class="kicker kicker-light">Route survey</p>
+        <h1 id="page-title">Help us plan our routes</h1>
+        <p class="page-intro">Tell us how you travel between York, Leeds and Manchester today. It only takes a few minutes, every question is optional apart from the first, and you don’t need to give us your email.</p>
+      </div>
+    </section>
+
+    <section class="section section-light survey-section" aria-label="Survey">
+      <div class="container container-narrow">
+        <form class="yat-form survey-form" action="https://formsubmit.co/hello@yatransit.co.uk" method="POST" data-yat-form data-survey>
+          <input type="hidden" name="_subject" value="YA Transit: new route survey response">
+          <input type="hidden" name="_next" value="https://yatransit.co.uk/thanks.html?form=survey">
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_template" value="table">
+          <input type="hidden" name="Form" value="Route survey">
+          <div class="hp-field" aria-hidden="true"><label for="survey-hp">Leave this field empty</label><input type="text" id="survey-hp" name="_honey" tabindex="-1" autocomplete="off"></div>
+
+          <fieldset class="q">
+            <legend>1. Which journeys do you make, or would you like to make? <span class="optional">(tick any that apply)</span></legend>
+            <div class="choices">
+              <label class="choice"><input type="checkbox" name="Journeys: York ↔ Leeds" value="Yes" data-group="Journeys"><span>York ↔ Leeds</span></label>
+              <label class="choice"><input type="checkbox" name="Journeys: Leeds ↔ Manchester" value="Yes" data-group="Journeys"><span>Leeds ↔ Manchester</span></label>
+              <label class="choice"><input type="checkbox" name="Journeys: York ↔ Manchester" value="Yes" data-group="Journeys"><span>York ↔ Manchester</span></label>
+              <label class="choice"><input type="checkbox" name="Journeys: Other" value="Yes" data-group="Journeys"><span>Other</span></label>
+            </div>
+            <div class="field field-other">
+              <label for="survey-other">Other journey <span class="optional">(optional)</span></label>
+              <input id="survey-other" name="Other journey" type="text" maxlength="200" placeholder="e.g. Harrogate to Leeds">
+            </div>
+            <p class="field-error" id="survey-journeys-error" hidden>Please tick at least one journey, or tell us about another one.</p>
+          </fieldset>
+
+          <fieldset class="q">
+            <legend>2. How often do you make these journeys? <span class="optional">(optional)</span></legend>
+            <div class="choices">
+              <label class="choice"><input type="radio" name="How often" value="Most weekdays"><span>Most weekdays</span></label>
+              <label class="choice"><input type="radio" name="How often" value="1–2 times a week"><span>1–2 times a week</span></label>
+              <label class="choice"><input type="radio" name="How often" value="A few times a month"><span>A few times a month</span></label>
+              <label class="choice"><input type="radio" name="How often" value="About once a month"><span>About once a month</span></label>
+              <label class="choice"><input type="radio" name="How often" value="Less often"><span>Less often</span></label>
+            </div>
+          </fieldset>
+
+          <fieldset class="q">
+            <legend>3. What are these journeys for? <span class="optional">(tick any that apply)</span></legend>
+            <div class="choices">
+              <label class="choice"><input type="checkbox" name="Purpose: Commuting" value="Yes" data-group="Purpose"><span>Commuting</span></label>
+              <label class="choice"><input type="checkbox" name="Purpose: Business travel" value="Yes" data-group="Purpose"><span>Business travel</span></label>
+              <label class="choice"><input type="checkbox" name="Purpose: Leisure or visiting people" value="Yes" data-group="Purpose"><span>Leisure or visiting people</span></label>
+              <label class="choice"><input type="checkbox" name="Purpose: Getting to or from an airport" value="Yes" data-group="Purpose"><span>Getting to or from an airport</span></label>
+            </div>
+          </fieldset>
+
+          <fieldset class="q">
+            <legend>4. How do you usually travel on these routes now? <span class="optional">(tick any that apply)</span></legend>
+            <div class="choices">
+              <label class="choice"><input type="checkbox" name="Current mode: Train" value="Yes" data-group="Current mode"><span>Train</span></label>
+              <label class="choice"><input type="checkbox" name="Current mode: Driving my own car" value="Yes" data-group="Current mode"><span>Driving my own car</span></label>
+              <label class="choice"><input type="checkbox" name="Current mode: Coach or bus" value="Yes" data-group="Current mode"><span>Coach or bus</span></label>
+              <label class="choice"><input type="checkbox" name="Current mode: Taxi or private hire" value="Yes" data-group="Current mode"><span>Taxi or private hire</span></label>
+              <label class="choice"><input type="checkbox" name="Current mode: Lift from someone else" value="Yes" data-group="Current mode"><span>Lift from someone else</span></label>
+              <label class="choice"><input type="checkbox" name="Current mode: Other" value="Yes" data-group="Current mode"><span>Other</span></label>
+            </div>
+          </fieldset>
+
+          <fieldset class="q">
+            <legend>5. Roughly how much does one single journey cost you now? <span class="optional">(optional)</span></legend>
+            <div class="choices">
+              <label class="choice"><input type="radio" name="Current cost per single journey" value="Under £10"><span>Under £10</span></label>
+              <label class="choice"><input type="radio" name="Current cost per single journey" value="£10–£20"><span>£10–£20</span></label>
+              <label class="choice"><input type="radio" name="Current cost per single journey" value="£20–£40"><span>£20–£40</span></label>
+              <label class="choice"><input type="radio" name="Current cost per single journey" value="£40–£80"><span>£40–£80</span></label>
+              <label class="choice"><input type="radio" name="Current cost per single journey" value="Over £80"><span>Over £80</span></label>
+              <label class="choice"><input type="radio" name="Current cost per single journey" value="Not sure"><span>Not sure</span></label>
+            </div>
+          </fieldset>
+
+          <fieldset class="q">
+            <legend>6. For a door-to-door electric service on the same journey, what would you consider paying compared with what you pay now? <span class="optional">(optional)</span></legend>
+            <div class="choices choices-1">
+              <label class="choice"><input type="radio" name="Would consider paying" value="Less than I pay now"><span>Less than I pay now</span></label>
+              <label class="choice"><input type="radio" name="Would consider paying" value="About the same as now"><span>About the same as now</span></label>
+              <label class="choice"><input type="radio" name="Would consider paying" value="Up to a quarter more than now"><span>Up to a quarter more than now</span></label>
+              <label class="choice"><input type="radio" name="Would consider paying" value="More than a quarter more, if the service was right"><span>More than a quarter more, if the service was right</span></label>
+              <label class="choice"><input type="radio" name="Would consider paying" value="Not sure"><span>Not sure</span></label>
+            </div>
+            <p class="hint">This is only to help us understand demand. We haven’t set any prices.</p>
+          </fieldset>
+
+          <fieldset class="q">
+            <legend>7. If an electric private-hire service with a human driver ran on these routes before driverless vehicles are approved, would you use it? <span class="optional">(optional)</span></legend>
+            <div class="choices">
+              <label class="choice"><input type="radio" name="Would use an EV private-hire service before driverless" value="Yes, definitely"><span>Yes, definitely</span></label>
+              <label class="choice"><input type="radio" name="Would use an EV private-hire service before driverless" value="Possibly"><span>Possibly</span></label>
+              <label class="choice"><input type="radio" name="Would use an EV private-hire service before driverless" value="Probably not"><span>Probably not</span></label>
+              <label class="choice"><input type="radio" name="Would use an EV private-hire service before driverless" value="Not sure"><span>Not sure</span></label>
+            </div>
+          </fieldset>
+
+          <div class="field q">
+            <label for="survey-comments">8. Anything else you’d like to tell us? <span class="optional">(optional)</span></label>
+            <textarea id="survey-comments" name="Comments" rows="4" maxlength="2000" placeholder="Please don’t include personal details you don’t want to share."></textarea>
+          </div>
+
+          <fieldset class="q q-contact">
+            <legend>9. Stay in touch <span class="optional">(optional)</span></legend>
+            <p class="hint">You can send this survey without giving an email address. If you do give one, we’ll only use it for the options you tick below.</p>
+            <div class="field">
+              <label for="survey-email">Email address <span class="optional">(optional)</span></label>
+              <input id="survey-email" name="email" type="email" autocomplete="email" inputmode="email" maxlength="200">
+            </div>
+            <label class="check">
+              <input type="checkbox" name="Consent to monthly briefing" value="Yes: ticked the box agreeing to receive the monthly YA Transit briefing by email" data-needs-email>
+              <span>Yes, please email me the monthly YA Transit briefing. I understand I can unsubscribe at any time by emailing <a href="mailto:hello@yatransit.co.uk">hello@yatransit.co.uk</a>.</span>
+            </label>
+            <label class="check">
+              <input type="checkbox" name="Consent to follow-up" value="Yes: ticked the box agreeing that YA Transit may email follow-up questions about these answers" data-needs-email>
+              <span>YA Transit may email me with follow-up questions about my answers.</span>
+            </label>
+            <p class="field-error" id="survey-email-error" hidden>Please enter your email address, or untick the boxes above.</p>
+          </fieldset>
+
+          <p class="form-note">By sending this survey you agree that we can use your answers to plan our routes, as explained in our <a href="privacy.html#survey-data">privacy notice</a>. Your answers are sent to us through FormSubmit, our form processor.</p>
+          <button class="btn btn-primary" type="submit">Send my answers</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <img src="assets/logo-light.svg" alt="YA Transit" width="180" height="38">
+        <p>Driverless, electric journeys between York, Leeds and Manchester. Coming soon.</p>
+      </div>
+      <nav class="footer-nav" aria-label="Footer">
+        <ul>
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#routes">Routes</a></li>
+          <li><a href="index.html#faq">FAQ</a></li>
+          <li><a href="news/">News</a></li>
+          <li><a href="resources.html">Resources</a></li>
+          <li><a href="survey.html" aria-current="page">Route survey</a></li>
+          <li><a href="privacy.html">Privacy notice</a></li>
+        </ul>
+      </nav>
+      <div class="footer-contact">
+        <h2 class="footer-heading">Contact</h2>
+        <p><a href="mailto:hello@yatransit.co.uk">hello@yatransit.co.uk</a></p>
+        <p class="footer-social"><a class="x-link" href="https://x.com/yatransit" target="_blank" rel="noopener"><span class="x-badge"><svg class="x-logo" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false"><path fill="currentColor" d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></span><span>Follow us on X: <strong>@yatransit</strong></span><span class="visually-hidden"> (opens in a new tab)</span></a></p>
+      </div>
+    </div>
+    <div class="container footer-legal">
+      <p>&copy; <span data-year>2026</span> Yorkshire Autonomous Transit Ltd. Registered in England &amp; Wales, company number 17446470. Registered office: Skipwith Road, York, YO19 6JA.</p>
+      <p>Tesla and Cybercab are trademarks of their respective owners. Yorkshire Autonomous Transit Ltd is not affiliated with Tesla.</p>
+    </div>
+  </footer>
+</body>
+</html>
