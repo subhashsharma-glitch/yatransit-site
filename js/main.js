@@ -64,6 +64,7 @@
       if (btn) {
         if (btn.disabled) { e.preventDefault(); return; }
         btn.disabled = true;
+        if (!btn.hasAttribute("data-label")) btn.setAttribute("data-label", btn.textContent);
         btn.textContent = "Sending…";
       }
     });
@@ -73,7 +74,7 @@
     if (!e.persisted) return;
     document.querySelectorAll("form[data-yat-form] button[disabled]").forEach(function (b) {
       b.disabled = false;
-      b.textContent = b.closest("[data-survey]") ? "Send my answers" : "Sign up";
+      b.textContent = b.getAttribute("data-label") || (b.closest("[data-survey]") ? "Send my answers" : "Sign up");
     });
   });
 
@@ -88,6 +89,11 @@
     } else if (kind === "survey") {
       thanksTitle.textContent = "Thanks for your answers";
       thanksText.textContent = "Your survey response helps us decide which journeys to plan for first. If you asked for the monthly briefing, it will arrive by email.";
+    } else if (kind === "tracker") {
+      thanksTitle.textContent = "Thanks for your report";
+      thanksText.textContent = "We’ll check it against public sources before changing the tracker. If you gave your email address, we may reply with a question.";
+      var back = document.querySelector(".thanks-actions .btn-primary");
+      if (back) { back.textContent = "Back to the tracker"; back.setAttribute("href", "tracker.html"); }
     }
   }
 

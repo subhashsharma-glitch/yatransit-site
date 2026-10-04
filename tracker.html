@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>UK &amp; Europe Robotaxi Tracker | YA Transit</title>
+  <meta name="description" content="Where self-driving taxi and shuttle services stand in the UK and Europe: operators by city, status, official fleet sizes, UK rules and European regulation. Each fact is sourced. Last verified 4 October 2026.">
+  <meta name="theme-color" content="#0B1628">
+  <link rel="canonical" href="https://yatransit.co.uk/tracker.html">
+
+  <!-- Open Graph / social sharing -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="YA Transit">
+  <meta property="og:title" content="UK &amp; Europe Robotaxi Tracker | YA Transit">
+  <meta property="og:description" content="Where self-driving taxi and shuttle services stand in the UK and Europe: operators by city, status, official fleet sizes, UK rules and European regulation. Each fact is sourced. Last verified 4 October 2026.">
+  <meta property="og:url" content="https://yatransit.co.uk/tracker.html">
+  <meta property="og:image" content="https://yatransit.co.uk/assets/og-image.jpg">
+  <meta property="og:locale" content="en_GB">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@yatransit">
+
+  <link rel="alternate" type="application/rss+xml" title="YA Transit News &amp; Insights" href="https://yatransit.co.uk/news/feed.xml">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="favicon.ico" sizes="32x32">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+  <link rel="preload" href="assets/fonts/inter-latin-var.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/space-grotesk-latin-var.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/main.js" defer></script>
+  <script src="js/tracker.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="YA Transit – home">
+        <img src="assets/logo-mark.svg" alt="" width="40" height="40">
+        <span class="brand-name">YA<span>Transit</span></span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span class="nav-toggle-bar" aria-hidden="true"></span>
+        <span class="visually-hidden">Menu</span>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Main">
+        <ul>
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#how-it-works">How it works</a></li>
+          <li><a href="index.html#routes">Routes</a></li>
+          <li><a href="index.html#faq">FAQ</a></li>
+          <li><a href="news/">News</a></li>
+          <li><a href="tracker.html" aria-current="page">Tracker</a></li>
+          <li><a href="resources.html">Resources</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-hero rt-hero" aria-labelledby="page-title">
+      <div class="container">
+        <p class="kicker kicker-light">Tracker</p>
+        <h1 id="page-title">UK &amp; Europe Robotaxi Tracker</h1>
+        <p class="page-intro">Where self-driving taxi and shuttle services stand in the UK and Europe: who is operating where, at what stage, and under which rules. Every entry links to its sources.</p>
+        <p class="rt-hero-meta">Last verified <time datetime="2026-10-04">4 October 2026</time> &middot; Updated weekly &middot; <a href="#changes">What’s changed</a></p>
+        <p class="rt-disclosure" role="note"><strong>Disclosure:</strong> YA Transit is a pre-launch, would-be operator and is not affiliated with any company listed. This tracker reports public information neutrally.</p>
+      </div>
+    </section>
+
+    <nav class="rt-toc" aria-label="On this page">
+      <div class="container">
+        <ul>
+          <li><a href="#operators">Operators by city</a></li>
+          <li><a href="#uk-rules">UK rules</a></li>
+          <li><a href="#europe">Europe</a></li>
+          <li><a href="#north">York, Leeds &amp; Manchester</a></li>
+          <li><a href="#changes">What’s changed</a></li>
+          <li><a href="#methodology">Methodology</a></li>
+          <li><a href="#report">Corrections &amp; sightings</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- ============ OPERATOR x CITY TABLE ============ -->
+    <section class="section section-white rt-section" id="operators" aria-labelledby="operators-title">
+      <div class="container">
+        <div class="section-head">
+          <p class="kicker">Operators by city</p>
+          <h2 id="operators-title">Who is testing or running services, and where</h2>
+          <p>11 entries: 5 in the UK and 6 elsewhere in Europe. Fleet sizes appear only where the operator has officially stated them.</p>
+        </div>
+        <div class="rt-legend" aria-labelledby="legend-title">
+          <h3 id="legend-title" class="rt-legend-title">Status legend</h3>
+          <ol class="rt-stages"><li><span class="rt-status rt-s-announced"><span class="rt-dot" aria-hidden="true"></span>Announced</span><span class="rt-legend-desc">A company or public body has publicly announced plans for a service or trial in this place. No public-road testing confirmed yet.</span></li><li><span class="rt-status rt-s-testing"><span class="rt-dot" aria-hidden="true"></span>Testing with safety driver</span><span class="rt-legend-desc">Automated vehicles are being tested on public roads with a trained safety driver on board. No public passengers.</span></li><li><span class="rt-status rt-s-rides"><span class="rt-dot" aria-hidden="true"></span>Passenger rides with safety driver</span><span class="rt-legend-desc">Members of the public (paying, free or pre-registered) can ride, with a safety driver or operator on board.</span></li><li><span class="rt-status rt-s-driverless-testing"><span class="rt-dot" aria-hidden="true"></span>Driverless testing</span><span class="rt-legend-desc">Vehicles run on public roads with nobody in the driving seat, as a test (sometimes with invited passengers).</span></li><li><span class="rt-status rt-s-driverless-commercial"><span class="rt-dot" aria-hidden="true"></span>Driverless commercial</span><span class="rt-legend-desc">A service open to the public with no safety driver on board.</span></li></ol>
+          <ul class="rt-stages rt-stages-other"><li><span class="rt-status rt-s-paused"><span class="rt-dot" aria-hidden="true"></span>Paused</span><span class="rt-legend-desc">The operator has temporarily stopped the service.</span></li><li><span class="rt-status rt-s-ended"><span class="rt-dot" aria-hidden="true"></span>Ended</span><span class="rt-legend-desc">The trial or service has finished.</span></li></ul>
+        </div>
+        <div class="rt-filters" data-tracker-filters hidden>
+          <div class="rt-filter">
+            <label for="rt-region">Region</label>
+            <select id="rt-region" data-filter="region">
+              <option value="">UK and Europe</option>
+              <option value="UK">UK only</option>
+              <option value="Europe">Europe (outside the UK)</option>
+            </select>
+          </div>
+          <div class="rt-filter">
+            <label for="rt-status">Status</label>
+            <select id="rt-status" data-filter="status">
+              <option value="">All statuses</option>
+              <option value="announced">Announced</option><option value="testing">Testing with safety driver</option><option value="rides">Passenger rides with safety driver</option><option value="driverless-testing">Driverless testing</option><option value="driverless-commercial">Driverless commercial</option><option value="paused">Paused</option><option value="ended">Ended</option>
+            </select>
+          </div>
+          <p class="rt-count" data-tracker-count aria-live="polite"></p>
+        </div>
+        <div class="rt-table-wrap">
+          <table class="rt-table" data-tracker-table data-src="tracker/data.json">
+            <caption class="visually-hidden">Self-driving taxi and shuttle services in the UK and Europe, by place and operator. Last verified 4 October 2026.</caption>
+            <thead>
+              <tr>
+                <th scope="col">Place</th>
+                <th scope="col">Operator</th>
+                <th scope="col">Status</th>
+                <th scope="col">Fleet (official)</th>
+                <th scope="col">Notes</th>
+                <th scope="col">Sources</th>
+              </tr>
+            </thead>
+            <tbody data-tracker-rows>
+            <tr data-region="UK" data-status="rides">
+              <th scope="row" data-label="Place"><span class="rt-place">London</span><span class="rt-sub">United Kingdom</span></th>
+              <td data-label="Operator"><span class="rt-op">Wayve with Uber</span><span class="rt-sub">Robotaxi</span></td>
+              <td data-label="Status"><span class="rt-status rt-s-rides"><span class="rt-dot" aria-hidden="true"></span>Passenger rides with safety driver</span><span class="rt-sub">Since 3 Sep 2026</span></td>
+              <td data-label="Fleet (official)"><span class="rt-muted">Not officially stated (Uber: “a small number of vehicles” at launch)</span></td>
+              <td data-label="Notes" class="rt-note">Supervised rides on the Uber app since 3 Sep 2026, with a TfL-licensed private hire driver on board. The service runs under private hire licensing, not the new driverless permit scheme.</td>
+              <td data-label="Sources"><ul class="rt-sources"><li><a href="https://investor.uber.com/news-events/news/press-release-details/2026/Wayve-and-Uber-Launch-First-Ever-Autonomous-Rides-in-the-UK-2026-VoFQI1WbQi/default.aspx" rel="noopener">Uber press release, 3 Sep 2026</a></li><li><a href="https://www.globalpolicywatch.com/2026/10/overview-of-eu-and-uk-regulatory-developments-relating-to-autonomous-vehicles/" rel="noopener">Global Policy Watch (Covington), 1 Oct 2026</a></li></ul><span class="rt-verified">Last verified <time datetime="2026-10-04">4 Oct 2026</time></span></td>
+            </tr>
+            <tr data-region="UK" data-status="testing">
+              <th scope="row" data-label="Place"><span class="rt-place">London</span><span class="rt-sub">United Kingdom</span></th>
+              <td data-label="Operator"><span class="rt-op">Waymo (fleet operations partner: Moove)</span><span class="rt-sub">Robotaxi</span></td>
+              <td data-label="Status"><span class="rt-status rt-s-testing"><span class="rt-dot" aria-hidden="true"></span>Testing with safety driver</span><span class="rt-sub">Since 14 Apr 2026</span></td>
+              <td data-label="Fleet (official)"><span class="rt-muted">Not officially stated</span></td>
+              <td data-label="Notes" class="rt-note">Autonomous driving with trained specialists behind the wheel since 14 Apr 2026. Waymo said in Oct 2025 that it intends to offer rides with no human behind the wheel in London in 2026, subject to permissions.</td>
+              <td data-label="Sources"><ul class="rt-sources"><li><a href="https://waymo.com/blog/shorts/autonomous-driving-in-london/" rel="noopener">Waymo blog, 14 Apr 2026</a></li><li><a href="https://waymo.com/blog/2025/10/hello-london-your-waymo-ride-is-arriving/" rel="noopener">Waymo blog, 15 Oct 2025</a></li></ul><span class="rt-verified">Last verified <time datetime="2026-10-04">4 Oct 2026</time></span></td>
+            </tr>
+            <tr data-region="UK" data-status="testing">
+              <th scope="row" data-label="Place"><span class="rt-place">London (Brent)</span><span class="rt-sub">United Kingdom</span></th>
+              <td data-label="Operator"><span class="rt-op">Baidu Apollo Go with Freenow by Lyft</span><span class="rt-sub">Robotaxi</span></td>
+              <td data-label="Status"><span class="rt-status rt-s-testing"><span class="rt-dot" aria-hidden="true"></span>Testing with safety driver</span><span class="rt-sub">Since 28 Jul 2026</span></td>
+              <td data-label="Fleet (official)"><span class="rt-muted">Not officially stated</span></td>
+              <td data-label="Notes" class="rt-note">Road testing of Apollo Go RT6 vehicles with safety operators on board began on 28 Jul 2026, starting in the borough of Brent. The companies plan to welcome public riders from 2027, subject to regulatory approvals.</td>
+              <td data-label="Sources"><ul class="rt-sources"><li><a href="https://www.lyft.com/blog/posts/freenow-by-lyft-and-baidu-start-av-testing-in-london" rel="noopener">Lyft blog, 28 Jul 2026</a></li><li><a href="https://www.prnewswire.com/news-releases/baidus-apollo-go-and-freenow-by-lyft-begin-road-testing-in-london-302836171.html" rel="noopener">Baidu press release, 28 Jul 2026</a></li></ul><span class="rt-verified">Last verified <time datetime="2026-10-04">4 Oct 2026</time></span></td>
+            </tr>
+            <tr data-region="UK" data-status="announced">
+              <th scope="row" data-label="Place"><span class="rt-place">London</span><span class="rt-sub">United Kingdom</span></th>
+              <td data-label="Operator"><span class="rt-op">Baidu Apollo Go with Uber</span><span class="rt-sub">Robotaxi</span></td>
+              <td data-label="Status"><span class="rt-status rt-s-announced"><span class="rt-dot" aria-hidden="true"></span>Announced</span><span class="rt-sub">Announced Dec 2025</span></td>
+              <td data-label="Fleet (official)"><span class="rt-muted">Not officially stated</span></td>
+              <td data-label="Notes" class="rt-note">Uber announced in Dec 2025 that it planned to test Apollo Go vehicles in London. On 28 Jul 2026 Uber said the vehicles were “on the road as we work towards testing and launch”. We have not found a confirmed start date for Uber’s supervised testing, so this stays at Announced.</td>
+              <td data-label="Sources"><ul class="rt-sources"><li><a href="https://techcrunch.com/2025/12/22/uber-and-lyft-to-test-baidu-robotaxis-in-london-next-year-joining-waymo/" rel="noopener">TechCrunch, 22 Dec 2025</a></li><li><a href="https://www.linkedin.com/posts/uber-com_next-stop-london-baidu-incs-apollo-go-activity-7487794001094291456-Az8e" rel="noopener">Uber on LinkedIn, 28 Jul 2026</a></li></ul><span class="rt-verified">Last verified <time datetime="2026-10-04">4 Oct 2026</time></span></td>
+            </tr>
+            <tr data-region="UK" data-status="ended">
+              <th scope="row" data-label="Place"><span class="rt-place">Sunderland</span><span class="rt-sub">United Kingdom</span></th>
+              <td data-label="Operator"><span class="rt-op">Oxa (SAMS project led by Sunderland City Council, with Stagecoach)</span><span class="rt-sub">Shuttle</span></td>
+              <td data-label="Status"><span class="rt-status rt-s-ended"><span class="rt-dot" aria-hidden="true"></span>Ended</span><span class="rt-sub">Ended Mar 2025</span></td>
+              <td data-label="Fleet (official)"><strong>1 shuttle</strong><span class="rt-sub">One autonomous Ford E-Transit shuttle (Oxa)</span></td>
+              <td data-label="Notes" class="rt-note">Sunderland Advanced Mobility Shuttle (SAMS): a four-week trial carrying pre-registered public passengers with a safety driver on board, linking Park Lane Interchange and Sunderland Royal Hospital. The trial ended in March 2025.</td>
+              <td data-label="Sources"><ul class="rt-sources"><li><a href="https://oxa.tech/news-and-insights/sunderlands-self-driving-bus-project-announces-oxa-as-new-autonomy-provider/" rel="noopener">Oxa, 15 Jan 2025</a></li><li><a href="https://www.bbc.co.uk/news/articles/cy0dr79x4xeo" rel="noopener">BBC News, 31 Mar 2025</a></li></ul><span class="rt-verified">Last verified <time datetime="2026-10-04">4 Oct 2026</time></span></td>
+            </tr>
+            <tr data-region="Europe" data-status="driverless-testing">
+              <th scope="row" data-label="Place"><span class="rt-place">Zagreb</span><span class="rt-sub">Croatia</span></th>
+              <td data-label="Operator"><span class="rt-op">Verne with Pony.ai and Uber</span><span class="rt-sub">Robotaxi</span></td>
+              <td data-label="Status"><span class="rt-status rt-s-driverless-testing"><span class="rt-dot" aria-hidden="true"></span>Driverless testing</span><span class="rt-sub">Since 10 Sep 2026 (public rides with an operator on board since 8 Apr 2026)</span></td>
+              <td data-label="Fleet (official)"><span class="rt-muted">Not officially stated</span></td>
+              <td data-label="Notes" class="rt-note">Paid public rides with an AV operator on board since 8 Apr 2026 (Verne app), also bookable on the Uber app since 19 Aug 2026. On 10 Sep 2026 Verne and Pony.ai began fully driverless test rides for invited passengers on a 22 km route to Zagreb Airport. The public service still has an operator on board.</td>
+              <td data-label="Sources"><ul class="rt-sources"><li><a href="https://www.letsverne.com/news-grid/verne-launches-europe%E2%80%99s-first-commercial-robotaxi-service." rel="noopener">Verne, 8 Apr 2026</a></li><li><a href="https://investor.uber.com/news-events/news/press-release-details/2026/Uber-Launches-Autonomous-Rides-in-Europe/default.aspx" rel="noopener">Uber press release, 19 Aug 2026</a></li><li><a href="https://www.letsverne.com/news-grid/verne-and-pony.ai-begin-fully-driverless-test-rides-with-passengers-on-public-roads-in-zagreb" rel="noopener">Verne, 10 Sep 2026</a></li></ul><span class="rt-verified">Last verified <time datetime="2026-10-04">4 Oct 2026</time></span></td>
+            </tr>
+            <tr data-region="Europe" data-status="rides">
+              <th scope="row" data-label="Place"><span class="rt-place">Hamburg</span><span class="rt-sub">Germany</span></th>
+              <td data-label="Operator"><span class="rt-op">MOIA (Volkswagen Group), ALIKE project led by HOCHBAHN</span><span class="rt-sub">Robotaxi (ride-pooling)</span></td>
+              <td data-label="Status"><span class="rt-status rt-s-rides"><span class="rt-dot" aria-hidden="true"></span>Passenger rides with safety driver</span><span class="rt-sub">Since 15 Jul 2026</span></td>
+              <td data-label="Fleet (official)"><strong>Up to 10</strong><span class="rt-sub">“Up to ten autonomous MOIA vehicles” (MOIA)</span></td>
+              <td data-label="Notes" class="rt-note">Since 15 Jul 2026, selected pre-registered residents can book free shared rides in the self-driving ID. Buzz through the MOIA app, with a trained safety operator on board. The initial area covers parts of Winterhude, Barmbek and Wandsbek.</td>
+              <td data-label="Sources"><ul class="rt-sources"><li><a href="https://www.moia.io/en/news/moia-launches-passenger-test-operation-in-hamburg" rel="noopener">MOIA press release, 15 Jul 2026</a></li></ul><span class="rt-verified">Last verified <time datetime="2026-10-04">4 Oct 2026</time></span></td>
+            </tr>
+            <tr data-region="Europe" data-status="paused">
+              <th scope="row" data-label="Place"><span class="rt-place">Oslo (Groruddalen) and Lørenskog</span><span class="rt-sub">Norway</span></th>
+              <td data-label="Operator"><span class="rt-op">Ruter with Holo (vehicles and app from MOIA)</span><span class="rt-sub">Robotaxi (ride-pooling)</span></td>
+              <td data-label="Status"><span class="rt-status rt-s-paused"><span class="rt-dot" aria-hidden="true"></span>Paused</span><span class="rt-sub">Paused since 28 Feb 2026</span></td>
+              <td data-label="Fleet (official)"><strong>6 (planned)</strong><span class="rt-sub">Six Volkswagen ID. Buzz from autumn 2026 (Ruter); the pilot began in late 2023 with five NIO ES8</span></td>
+              <td data-label="Notes" class="rt-note">Ruter paused its self-driving pilot from 28 Feb 2026 while new vehicles were brought in. Its project page (updated 16 Sep 2026) says the service will reopen to passengers in September 2026, with a safety operator in the driver’s seat. We could not confirm that it has restarted.</td>
+              <td data-label="Sources"><ul class="rt-sources"><li><a href="https://www.mynewsdesk.com/no/ruter/pressreleases/midlertidig-opphold-for-ruters-selvkjoeringstjeneste-i-groruddalen-og-loerenskog-3431670" rel="noopener">Ruter press release, 11 Feb 2026 (Norwegian)</a></li><li><a href="https://ruter.no/om-oss/prosjekter-og-innovasjon/selvkjoringspiloten" rel="noopener">Ruter project page, updated 16 Sep 2026 (Norwegian)</a></li></ul><span class="rt-verified">Last verified <time datetime="2026-10-04">4 Oct 2026</time></span></td>
+            </tr>
+            <tr data-region="Europe" data-status="rides">
+              <th scope="row" data-label="Place"><span class="rt-place">Drôme (Valence TGV – Rovaltain)</span><span class="rt-sub">France</span></th>
+              <td data-label="Operator"><span class="rt-op">beti with WeRide (with Renault Group and Macif)</span><span class="rt-sub">Shuttle (robobus)</span></td>
+              <td data-label="Status"><span class="rt-status rt-s-rides"><span class="rt-dot" aria-hidden="true"></span>Passenger rides with safety driver</span><span class="rt-sub">Since 10 Mar 2025; last confirmed Apr 2026</span></td>
+              <td data-label="Fleet (official)"><span class="rt-muted">Not officially stated as a number (WeRide: “several” eight-passenger robobuses)</span></td>
+              <td data-label="Notes" class="rt-note">A 3.3 km public-road shuttle route between Valence TGV station and the Rovaltain business park, which started on 10 Mar 2025. WeRide called it fully driverless, but France 3 reported in April 2026 that a safety agent was still on board, due to leave the vehicle in early 2027. That report said the current trial phase ran until 4 Apr 2026. Last confirmed in April 2026.</td>
+              <td data-label="Sources"><ul class="rt-sources"><li><a href="https://ir.weride.ai/news-releases/news-release-details/weride-makes-first-european-fully-driverless-commercial-robobus" rel="noopener">WeRide press release, 27 Feb 2025</a></li><li><a href="https://france3-regions.franceinfo.fr/auvergne-rhone-alpes/drome/on-eprouve-un-sentiment-de-securite-correct-meme-si-ca-fait-bizarre-la-navette-sans-chauffeur-et-autonome-en-derniere-phase-de-test-a-valence-3326813.html" rel="noopener">France 3 Auvergne-Rhône-Alpes, 1 Apr 2026 (French)</a></li></ul><span class="rt-verified">Last verified <time datetime="2026-10-04">4 Oct 2026</time></span></td>
+            </tr>
+            <tr data-region="Europe" data-status="testing">
+              <th scope="row" data-label="Place"><span class="rt-place">Eastern Switzerland (Altstätten area)</span><span class="rt-sub">Switzerland</span></th>
+              <td data-label="Operator"><span class="rt-op">PostBus (AmiGo) with Baidu Apollo Go</span><span class="rt-sub">Robotaxi (on-demand)</span></td>
+              <td data-label="Status"><span class="rt-status rt-s-testing"><span class="rt-dot" aria-hidden="true"></span>Testing with safety driver</span><span class="rt-sub">Since 1 Jun 2026</span></td>
+              <td data-label="Fleet (official)"><span class="rt-muted">Current fleet not stated; PostBus plans regular operation with up to 25 vehicles without safety drivers from 2027</span></td>
+              <td data-label="Notes" class="rt-note">Under a special permit from the Federal Roads Office (FEDRO), Apollo RT6 vehicles have driven in automated mode with safety drivers on board since 1 Jun 2026, across an 80 km² area in St. Gallen and the two Appenzell cantons. No customers yet; a test-user group is being prepared.</td>
+              <td data-label="Sources"><ul class="rt-sources"><li><a href="https://www.postauto.ch/en/about-us-and-news/innovation/automated-driving/amigo/amigo-news/2026/milestone-for-autonomous-mobility-in-switzerland" rel="noopener">PostBus press release, 12 Jun 2026</a></li><li><a href="https://www2.postauto.ch/de/ueber-uns-und-aktuelles/innovation/automatisiertes-fahren/amigo/amigo-news/2026/amigo-projektupdate-herbst-2026" rel="noopener">PostBus project update, 29 Sep 2026 (German)</a></li></ul><span class="rt-verified">Last verified <time datetime="2026-10-04">4 Oct 2026</time></span></td>
+            </tr>
+            <tr data-region="Europe" data-status="announced">
+              <th scope="row" data-label="Place"><span class="rt-place">Munich</span><span class="rt-sub">Germany</span></th>
+              <td data-label="Operator"><span class="rt-op">Momenta with Uber</span><span class="rt-sub">Robotaxi</span></td>
+              <td data-label="Status"><span class="rt-status rt-s-announced"><span class="rt-dot" aria-hidden="true"></span>Announced</span><span class="rt-sub">Announced Sep 2025</span></td>
+              <td data-label="Fleet (official)"><span class="rt-muted">Not officially stated</span></td>
+              <td data-label="Notes" class="rt-note">Uber and Momenta announced plans in Sep 2025 for Level 4 testing in Munich in 2026. On 29 Jul 2026 Momenta said it had received Germany-wide Level 4 testing approval from the KBA. We have not found a confirmed start of public-road testing in Munich.</td>
+              <td data-label="Sources"><ul class="rt-sources"><li><a href="https://momenta.ai/en/article/316.html" rel="noopener">Momenta/Uber announcement, 8 Sep 2025</a></li><li><a href="https://momenta.ai/en/article/596.html" rel="noopener">Momenta, 29 Jul 2026</a></li></ul><span class="rt-verified">Last verified <time datetime="2026-10-04">4 Oct 2026</time></span></td>
+            </tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="rt-table-foot">Status shows the most advanced stage we could confirm from the sources for each entry. The data is also available as <a href="tracker/data.json">JSON</a>.</p>
+      </div>
+    </section>
+
+    <!-- ============ UK RULES ============ -->
+    <section class="section section-light rt-section" id="uk-rules" aria-labelledby="uk-title">
+      <div class="container">
+        <div class="section-head">
+          <p class="kicker">UK rules</p>
+          <h2 id="uk-title">UK rules timeline</h2>
+          <p>How the Automated Vehicles Act 2024 is coming into force across Great Britain.</p>
+        </div>
+        <div class="rt-uk-grid">
+          <ol class="rt-timeline">
+          <li class="rt-tl-item">
+            <p class="rt-tl-date"><time datetime="2024-05-20">20 May 2024</time></p>
+            <h3>Automated Vehicles Act receives Royal Assent</h3>
+            <p>The Automated Vehicles Act 2024 became law, setting out a framework for self-driving vehicles, including a permitting scheme for automated passenger services (APS).</p>
+            <p class="rt-src">Source: <a href="https://www.gov.uk/government/news/self-driving-vehicles-set-to-be-on-roads-by-2026-as-automated-vehicles-act-becomes-law" rel="noopener">GOV.UK, 20 May 2024</a> &middot; Last verified 4 Oct 2026</p>
+          </li>
+          <li class="rt-tl-item">
+            <p class="rt-tl-date"><time datetime="2026-05-15">15 May 2026</time></p>
+            <h3>APS permit regulations in force (SI 2026/439)</h3>
+            <p>The Automated Vehicles (Permits for Automated Passenger Services) Regulations 2026 came into force. They extend to England and Wales and Scotland.</p>
+            <p class="rt-src">Source: <a href="https://www.legislation.gov.uk/uksi/2026/439/made" rel="noopener">legislation.gov.uk: SI 2026/439</a> &middot; Last verified 4 Oct 2026</p>
+          </li>
+          <li class="rt-tl-item">
+            <p class="rt-tl-date"><time datetime="2026-05-22">22 May 2026</time></p>
+            <h3>DVSA opens the APS permit application portal</h3>
+            <p>Operators can apply to the Driver and Vehicle Standards Agency (DVSA) for a permit to run a taxi-, private hire- or bus-like passenger service using self-driving vehicles without a safety driver.</p>
+            <p class="rt-src">Source: <a href="https://aps.data.dvsa.gov.uk/" rel="noopener">DVSA APS portal</a> and <a href="https://www.gov.uk/government/news/passengers-one-step-closer-to-booking-taxi-and-bus-style-self-driving-vehicles" rel="noopener">GOV.UK, 22 May 2026</a> &middot; Last verified 4 Oct 2026</p>
+          </li>
+          <li class="rt-tl-item">
+            <p class="rt-tl-date"><time datetime="2027-01-07">7 January 2027</time></p>
+            <h3>Marketing restrictions in force (SI 2026/733)</h3>
+            <p>The Automated Vehicles (Marketing Restrictions) Regulations 2026 list restricted terms, including “self-driving”, “driverless”, “autonomous” and “drive itself”. Under section 78 of the Act, these may be used to promote or supply road vehicles only in connection with authorised automated vehicles.</p>
+            <p class="rt-src">Source: <a href="https://www.legislation.gov.uk/uksi/2026/733/made" rel="noopener">legislation.gov.uk: SI 2026/733</a> &middot; Last verified 4 Oct 2026</p>
+          </li>
+          <li class="rt-tl-item">
+            <p class="rt-tl-date">Expected late 2027</p>
+            <h3>Rest of the Act expected</h3>
+            <p>The government says the remaining provisions of the Automated Vehicles Act are due to come into force in late 2027.</p>
+            <p class="rt-src">Source: <a href="https://www.gov.uk/government/publications/self-driving-vehicle-pilot-scheme-information-for-applicants/self-driving-vehicle-pilot-scheme-information-for-applicants" rel="noopener">GOV.UK: pilot scheme information for applicants</a> &middot; Last verified 4 Oct 2026</p>
+          </li>
+          </ol>
+          <aside class="rt-counter" aria-labelledby="counter-title">
+            <p class="rt-counter-value" aria-hidden="true">0</p>
+            <h3 id="counter-title" class="rt-counter-label">UK driverless passenger permits granted: 0</h3>
+            <p class="rt-counter-asof">As of <time datetime="2026-10-04">4 October 2026</time></p>
+            <p>No automated passenger services (APS) permit has been announced. On 1 Oct 2026 Covington’s Global Policy Watch reported that permits for the first automated passenger services were “yet to be granted”, and that as of late September no operator had applied for a driverless permit.</p>
+            <p class="rt-src">Sources: <a href="https://www.globalpolicywatch.com/2026/10/overview-of-eu-and-uk-regulatory-developments-relating-to-autonomous-vehicles/" rel="noopener">Global Policy Watch (Covington), 1 Oct 2026</a> and <a href="https://aps.data.dvsa.gov.uk/" rel="noopener">DVSA: Apply for an APS permit</a> &middot; Last verified 4 Oct 2026</p>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ EUROPE ============ -->
+    <section class="section section-white rt-section" id="europe" aria-labelledby="europe-title">
+      <div class="container">
+        <div class="section-head">
+          <p class="kicker">Europe</p>
+          <h2 id="europe-title">European regulation at a glance</h2>
+          <p>The main rules behind the European entries above.</p>
+        </div>
+        <div class="rt-eu-grid">
+          <article class="rt-eu-card">
+            <h3>Germany: Level 4 law and KBA testing approvals</h3>
+            <p>Germany’s Autonomous Driving Act came into force on 28 July 2021. It allows autonomous (Level 4) vehicles to run in regular service on public roads within approved operating areas.</p>
+            <p>The Federal Motor Transport Authority (KBA) publishes a list of the testing approvals it has granted. In July 2026 Momenta said it had received Germany-wide Level 4 testing approval from the KBA.</p>
+            <p class="rt-caveat">The KBA website was unavailable when we checked on 4 October 2026, so we have not re-checked the current list.</p>
+            <p class="rt-src">Sources: <a href="https://www.bmv.de/SharedDocs/DE/Artikel/StV/gesetz-zum-autonomen-fahren.html" rel="noopener">Federal Ministry of Transport (German)</a>, <a href="https://www.kba.de/DE/Themen/Typgenehmigung/Autonomes_automatisiertes_Fahren/Erprobungsgenehmigung/dl_liste_erprobungsgenehmigungen.html" rel="noopener">KBA list of testing approvals (German)</a>, <a href="https://momenta.ai/en/article/596.html" rel="noopener">Momenta, 29 Jul 2026</a> &middot; Last verified 4 Oct 2026</p>
+          </article>
+          <article class="rt-eu-card">
+            <h3>Switzerland: Ordinance on Automated Driving</h3>
+            <p>Since 1 March 2025, three uses of automated driving have been allowed: a motorway pilot, driverless vehicles on approved routes supervised by an operator, and automated parking in designated car parks.</p>
+            <p>PostBus’s AmiGo vehicles in eastern Switzerland are testing with safety drivers under a special permit from the Federal Roads Office (FEDRO).</p>
+            <p class="rt-src">Sources: <a href="https://www.astra.admin.ch/de/verordnung-ueber-das-automatisierte-fahren" rel="noopener">FEDRO (German)</a>, <a href="https://www.postauto.ch/en/about-us-and-news/innovation/automated-driving/amigo/amigo-news/2026/milestone-for-autonomous-mobility-in-switzerland" rel="noopener">PostBus, 12 Jun 2026</a> &middot; Last verified 4 Oct 2026</p>
+          </article>
+          <article class="rt-eu-card">
+            <h3>EU: type approval for fully automated vehicles (Regulation 2022/1426)</h3>
+            <p>Implementing Regulation (EU) 2022/1426 sets out how the automated driving systems of fully automated vehicles are approved, for uses such as hub-to-hub routes, defined areas and automated valet parking. For now it covers vehicles built in small series.</p>
+            <p>A companion amendment to the EU type-approval framework caps small-series approvals of fully automated buses and heavy goods vehicles at 1,500 vehicles a year per type.</p>
+            <p class="rt-src">Sources: <a href="https://eur-lex.europa.eu/eli/reg_impl/2022/1426/oj/eng" rel="noopener">EUR-Lex: Regulation (EU) 2022/1426</a>, <a href="https://assets.publishing.service.gov.uk/media/62e0f8ffe90e0766b251ab71/EM_on_EU_delegated_regulation_updating_road_vehicle_approval_framework.pdf" rel="noopener">DfT explanatory memorandum, Jul 2022 (PDF)</a> &middot; Last verified 4 Oct 2026</p>
+          </article>
+          <article class="rt-eu-card rt-eu-card-note">
+            <h3>Netherlands: Tesla FSD (Supervised) approval</h3>
+            <p class="rt-label-l2">Driver assistance (supervised, SAE Level 2), not self-driving</p>
+            <p>On 10 April 2026 the RDW, the Dutch vehicle authority, granted type approval for Tesla’s FSD (Supervised) in the Netherlands. The RDW says: “A vehicle with FSD Supervised is not self-driving.” The driver remains responsible and must stay in control.</p>
+            <p>Use in other EU countries needs a majority vote of member states in the responsible EU committee. electrive reported on 28 September 2026 that the vote is not expected before December.</p>
+            <p class="rt-src">Sources: <a href="https://www.rdw.nl/en/news/2026/rdw-explanation-of-european-type-approval-tesla-with-provisional-validity-in-the-netherlands" rel="noopener">RDW, 10 Apr 2026</a>, <a href="https://www.heise.de/en/news/Tesla-s-FSD-approved-in-the-Netherlands-only-in-the-Netherlands-11253269.html" rel="noopener">heise online (SAE Level 2)</a>, <a href="https://www.electrive.com/2026/09/28/eu-vote-on-tesla-fsd-not-expected-before-december/" rel="noopener">electrive, 28 Sep 2026</a> &middot; Last verified 4 Oct 2026</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ YORK / LEEDS / MANCHESTER ============ -->
+    <section class="section section-dark rt-section" id="north" aria-labelledby="north-title">
+      <div class="container container-narrow">
+        <p class="kicker kicker-light">Closer to home</p>
+        <h2 id="north-title">What’s next for York, Leeds and Manchester</h2>
+        <p><strong>We found no confirmed self-driving taxi or shuttle trials in York, Leeds or Manchester</strong> as of 4 October 2026.</p>
+        <p>Under the UK’s automated passenger services (APS) scheme, a taxi- or private hire-like service needs the consent of each licensing authority (usually the local council) in the area it would serve, and the authority has six weeks to respond. For a bus-like service in an area with franchised buses, the franchising authority must consent. The Department for Transport also says: “We do not expect deployments in the pilot period to be cross-boundary.”</p>
+        <p>In January 2025 Auto Express reported that Manchester council officials had agreed in principle for the city to be a future rollout site for Verne. We have found no date, permit or trial announced since, so it is not listed in the table.</p>
+        <p class="rt-src">Sources: <a href="https://www.gov.uk/government/publications/automated-passenger-service-permits-local-authority-and-transport-body-roles/automated-passenger-service-permits-local-authority-and-transport-body-roles" rel="noopener">GOV.UK: local authority and transport body roles</a>, <a href="https://www.autoexpress.co.uk/news/363539/taxi-future-heads-manchester-verne-self-driving-robo-taxi-approved-use" rel="noopener">Auto Express, 10 Jan 2025</a> &middot; Last verified 4 Oct 2026</p>
+        <p class="rt-north-cta"><a class="btn btn-primary" href="news/driverless-taxis-york-leeds-manchester.html">Read: When will driverless taxis come to York, Leeds and Manchester?</a></p>
+      </div>
+    </section>
+
+    <!-- ============ CHANGELOG ============ -->
+    <section class="section section-light rt-section" id="changes" aria-labelledby="changes-title">
+      <div class="container container-narrow">
+        <div class="section-head">
+          <p class="kicker">Updates</p>
+          <h2 id="changes-title">What’s changed</h2>
+          <p>We review the tracker weekly and log every change here, newest first.</p>
+        </div>
+        <ol class="rt-log">
+          <li class="rt-log-entry">
+            <p class="rt-log-date"><time datetime="2026-10-04">4 October 2026</time></p>
+            <h3>Baseline: tracker launched</h3>
+            <ul><li>First version of the tracker, with 11 operator–city entries (5 UK, 6 elsewhere in Europe), each checked against the linked sources on 4 Oct 2026.</li><li>UK driverless passenger permits granted: 0.</li><li>Not yet confirmed: whether Ruter’s Oslo pilot has restarted, whether beti’s Drôme shuttle has run since April 2026, and when Uber’s own Apollo Go testing in London began.</li></ul>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ METHODOLOGY ============ -->
+    <section class="section section-white rt-section" id="methodology" aria-labelledby="method-title">
+      <div class="container container-narrow prose">
+        <p class="kicker">Methodology</p>
+        <h2 id="method-title">How we compile the tracker</h2>
+        <ul>
+          <li><strong>Sources.</strong> We use official sources first: operator and partner press releases, company blogs, regulators and government publications. We use established news outlets only to fill gaps, and we say so when we do. Each entry links to its sources and shows the date we last checked them.</li>
+          <li><strong>Statuses.</strong> Each entry shows the most advanced stage we could confirm: Announced, Testing with safety driver, Passenger rides with safety driver, Driverless testing or Driverless commercial. Paused and Ended are shown separately. Where a source’s wording and other reports differ, we use the more cautious status and explain why in the notes.</li>
+          <li><strong>Fleet sizes.</strong> We show a fleet size only when the operator or project officially states one. Estimates from other sources are left out.</li>
+          <li><strong>What’s included.</strong> Self-driving taxi, ride-pooling and shuttle services carrying, or planned to carry, passengers on public roads in the UK and Europe. Driver assistance systems such as Tesla FSD (Supervised) are not self-driving, so they appear only in the regulation box.</li>
+          <li><strong>Updates.</strong> We review the sources weekly and record changes in <a href="#changes">What’s changed</a>. If something is wrong or out of date, please <a href="#report">tell us</a>.</li>
+          <li><strong>Independence.</strong> We don’t copy data from other trackers, and no company listed has paid for or reviewed its entry.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ CORRECTIONS & SIGHTINGS ============ -->
+    <section class="section section-light rt-section" id="report" aria-labelledby="report-title">
+      <div class="container container-narrow">
+        <div class="section-head">
+          <p class="kicker">Help keep it accurate</p>
+          <h2 id="report-title">Send a correction or sighting</h2>
+          <p>Spotted an error, a new announcement or a test vehicle on the road? Tell us and we’ll check it against public sources before changing anything.</p>
+        </div>
+        <form class="yat-form survey-form rt-form" action="https://formsubmit.co/7b9ac021329bbe6ac2b7830b0eee257e" method="POST" data-yat-form>
+          <input type="hidden" name="_subject" value="YA Transit tracker: correction or sighting">
+          <input type="hidden" name="_next" value="https://yatransit.co.uk/thanks.html?form=tracker">
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_template" value="table">
+          <input type="hidden" name="Form" value="Tracker correction or sighting">
+          <input type="hidden" name="Page" value="/tracker.html">
+          <div class="hp-field" aria-hidden="true"><label for="tracker-hp">Leave this field empty</label><input type="text" id="tracker-hp" name="_honey" tabindex="-1" autocomplete="off"></div>
+          <p class="rt-form-warning" role="note"><strong>Text only.</strong> We don’t accept photos or files. Please don’t include anyone’s face, name, number plate or other personal data.</p>
+          <fieldset class="q">
+            <legend>What are you sending?</legend>
+            <div class="choices">
+              <label class="choice" for="tracker-type-1"><input type="radio" id="tracker-type-1" name="Report type" value="A correction to the tracker" required><span>A correction to the tracker</span></label>
+              <label class="choice" for="tracker-type-2"><input type="radio" id="tracker-type-2" name="Report type" value="A sighting of a test vehicle"><span>A sighting of a test vehicle</span></label>
+              <label class="choice" for="tracker-type-3"><input type="radio" id="tracker-type-3" name="Report type" value="A new announcement or source"><span>A new announcement or source</span></label>
+              <label class="choice" for="tracker-type-4"><input type="radio" id="tracker-type-4" name="Report type" value="Something else"><span>Something else</span></label>
+            </div>
+          </fieldset>
+          <div class="field">
+            <label for="tracker-entry">Which entry, operator or place?</label>
+            <input id="tracker-entry" name="Entry or place" type="text" required maxlength="200">
+          </div>
+          <div class="field">
+            <label for="tracker-details">What did you see, or what should change?</label>
+            <textarea id="tracker-details" name="Details" required maxlength="2000" aria-describedby="tracker-details-hint"></textarea>
+            <p class="hint" id="tracker-details-hint">For sightings, say roughly where and when, and what you saw (for example the vehicle’s branding). Please describe vehicles, not people.</p>
+          </div>
+          <div class="form-row">
+            <div class="field">
+              <label for="tracker-date">Date seen <span class="optional">(optional)</span></label>
+              <input id="tracker-date" name="Date seen" type="text" maxlength="40" placeholder="e.g. 3 Oct 2026">
+            </div>
+            <div class="field">
+              <label for="tracker-source">Source link <span class="optional">(optional)</span></label>
+              <input id="tracker-source" name="Source link" type="url" maxlength="500" placeholder="https://">
+            </div>
+          </div>
+          <div class="field">
+            <label for="tracker-email">Your email <span class="optional">(optional, only if you’d like a reply)</span></label>
+            <input id="tracker-email" name="email" type="email" autocomplete="email" inputmode="email" maxlength="200">
+          </div>
+          <div class="field">
+            <label class="check">
+              <input type="checkbox" name="Consent to tracker submission" value="Yes: agreed YA Transit may use this report to check and update the tracker, and confirmed no photos or personal data are included" required>
+              <span>I agree that YA Transit may use this report to check and update the tracker, as described in the <a href="privacy.html#tracker-data">privacy notice</a>. I haven’t included photos, faces or anyone’s personal data.</span>
+            </label>
+          </div>
+          <button class="btn btn-primary" type="submit">Send report</button>
+          <p class="form-note">Your report reaches us through FormSubmit, the service that processes our forms. We never publish your name or email address.</p>
+        </form>
+      </div>
+    </section>
+
+    <section class="rt-bottom-disclosure" aria-label="Disclosure">
+      <div class="container">
+        <p class="rt-disclosure rt-disclosure-light" role="note"><strong>Disclosure:</strong> YA Transit is a pre-launch, would-be operator and is not affiliated with any company listed. This tracker reports public information neutrally.</p>
+        <p class="rt-bottom-meta">Last verified <time datetime="2026-10-04">4 October 2026</time>. Information can change quickly; check the linked sources for the latest position.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <img src="assets/logo-light.svg" alt="YA Transit" width="180" height="38">
+        <p>Driverless, electric journeys between York, Leeds and Manchester. Coming soon.</p>
+      </div>
+      <nav class="footer-nav" aria-label="Footer">
+        <ul>
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#routes">Routes</a></li>
+          <li><a href="index.html#faq">FAQ</a></li>
+          <li><a href="news/">News</a></li>
+          <li><a href="tracker.html" aria-current="page">Tracker</a></li>
+          <li><a href="resources.html">Resources</a></li>
+          <li><a href="survey.html">Route survey</a></li>
+          <li><a href="privacy.html">Privacy notice</a></li>
+        </ul>
+      </nav>
+      <div class="footer-contact">
+        <h2 class="footer-heading">Contact</h2>
+        <p><a href="mailto:hello@yatransit.co.uk">hello@yatransit.co.uk</a></p>
+        <p class="footer-social"><a class="x-link" href="https://x.com/yatransit" target="_blank" rel="noopener"><span class="x-badge"><svg class="x-logo" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false"><path fill="currentColor" d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></span><span>Follow us on X: <strong>@yatransit</strong></span><span class="visually-hidden"> (opens in a new tab)</span></a></p>
+      </div>
+    </div>
+    <div class="container footer-legal">
+      <p>&copy; <span data-year>2026</span> Yorkshire Autonomous Transit Ltd. Registered in England &amp; Wales, company number 17446470. Registered office: Skipwith Road, York, YO19 6JA.</p>
+      <p>Tesla and Cybercab are trademarks of their respective owners. Yorkshire Autonomous Transit Ltd is not affiliated with Tesla.</p>
+    </div>
+  </footer>
+</body>
+</html>

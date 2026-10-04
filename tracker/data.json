@@ -1,0 +1,345 @@
+{
+  "title": "UK & Europe Robotaxi Tracker",
+  "lastVerified": "2026-10-04",
+  "statuses": [
+    {
+      "id": "announced",
+      "label": "Announced",
+      "description": "A company or public body has publicly announced plans for a service or trial in this place. No public-road testing confirmed yet."
+    },
+    {
+      "id": "testing",
+      "label": "Testing with safety driver",
+      "description": "Automated vehicles are being tested on public roads with a trained safety driver on board. No public passengers."
+    },
+    {
+      "id": "rides",
+      "label": "Passenger rides with safety driver",
+      "description": "Members of the public (paying, free or pre-registered) can ride, with a safety driver or operator on board."
+    },
+    {
+      "id": "driverless-testing",
+      "label": "Driverless testing",
+      "description": "Vehicles run on public roads with nobody in the driving seat, as a test (sometimes with invited passengers)."
+    },
+    {
+      "id": "driverless-commercial",
+      "label": "Driverless commercial",
+      "description": "A service open to the public with no safety driver on board."
+    },
+    {
+      "id": "paused",
+      "label": "Paused",
+      "description": "The operator has temporarily stopped the service."
+    },
+    {
+      "id": "ended",
+      "label": "Ended",
+      "description": "The trial or service has finished."
+    }
+  ],
+  "operators": [
+    {
+      "id": "london-wayve-uber",
+      "region": "UK",
+      "place": "London",
+      "country": "United Kingdom",
+      "operator": "Wayve with Uber",
+      "type": "Robotaxi",
+      "status": "rides",
+      "since": "2026-09-03",
+      "statusText": "Since 3 Sep 2026",
+      "fleet": null,
+      "fleetNote": "Not officially stated (Uber: “a small number of vehicles” at launch)",
+      "note": "Supervised rides on the Uber app since 3 Sep 2026, with a TfL-licensed private hire driver on board. The service runs under private hire licensing, not the new driverless permit scheme.",
+      "sources": [
+        {
+          "label": "Uber press release, 3 Sep 2026",
+          "url": "https://investor.uber.com/news-events/news/press-release-details/2026/Wayve-and-Uber-Launch-First-Ever-Autonomous-Rides-in-the-UK-2026-VoFQI1WbQi/default.aspx"
+        },
+        {
+          "label": "Global Policy Watch (Covington), 1 Oct 2026",
+          "url": "https://www.globalpolicywatch.com/2026/10/overview-of-eu-and-uk-regulatory-developments-relating-to-autonomous-vehicles/"
+        }
+      ],
+      "lastVerified": "2026-10-04"
+    },
+    {
+      "id": "london-waymo",
+      "region": "UK",
+      "place": "London",
+      "country": "United Kingdom",
+      "operator": "Waymo (fleet operations partner: Moove)",
+      "type": "Robotaxi",
+      "status": "testing",
+      "since": "2026-04-14",
+      "statusText": "Since 14 Apr 2026",
+      "fleet": null,
+      "fleetNote": "Not officially stated",
+      "note": "Autonomous driving with trained specialists behind the wheel since 14 Apr 2026. Waymo said in Oct 2025 that it intends to offer rides with no human behind the wheel in London in 2026, subject to permissions.",
+      "sources": [
+        {
+          "label": "Waymo blog, 14 Apr 2026",
+          "url": "https://waymo.com/blog/shorts/autonomous-driving-in-london/"
+        },
+        {
+          "label": "Waymo blog, 15 Oct 2025",
+          "url": "https://waymo.com/blog/2025/10/hello-london-your-waymo-ride-is-arriving/"
+        }
+      ],
+      "lastVerified": "2026-10-04"
+    },
+    {
+      "id": "london-baidu-lyft",
+      "region": "UK",
+      "place": "London (Brent)",
+      "country": "United Kingdom",
+      "operator": "Baidu Apollo Go with Freenow by Lyft",
+      "type": "Robotaxi",
+      "status": "testing",
+      "since": "2026-07-28",
+      "statusText": "Since 28 Jul 2026",
+      "fleet": null,
+      "fleetNote": "Not officially stated",
+      "note": "Road testing of Apollo Go RT6 vehicles with safety operators on board began on 28 Jul 2026, starting in the borough of Brent. The companies plan to welcome public riders from 2027, subject to regulatory approvals.",
+      "sources": [
+        {
+          "label": "Lyft blog, 28 Jul 2026",
+          "url": "https://www.lyft.com/blog/posts/freenow-by-lyft-and-baidu-start-av-testing-in-london"
+        },
+        {
+          "label": "Baidu press release, 28 Jul 2026",
+          "url": "https://www.prnewswire.com/news-releases/baidus-apollo-go-and-freenow-by-lyft-begin-road-testing-in-london-302836171.html"
+        }
+      ],
+      "lastVerified": "2026-10-04"
+    },
+    {
+      "id": "london-baidu-uber",
+      "region": "UK",
+      "place": "London",
+      "country": "United Kingdom",
+      "operator": "Baidu Apollo Go with Uber",
+      "type": "Robotaxi",
+      "status": "announced",
+      "since": "2025-12-22",
+      "statusText": "Announced Dec 2025",
+      "fleet": null,
+      "fleetNote": "Not officially stated",
+      "note": "Uber announced in Dec 2025 that it planned to test Apollo Go vehicles in London. On 28 Jul 2026 Uber said the vehicles were “on the road as we work towards testing and launch”. We have not found a confirmed start date for Uber’s supervised testing, so this stays at Announced.",
+      "sources": [
+        {
+          "label": "TechCrunch, 22 Dec 2025",
+          "url": "https://techcrunch.com/2025/12/22/uber-and-lyft-to-test-baidu-robotaxis-in-london-next-year-joining-waymo/"
+        },
+        {
+          "label": "Uber on LinkedIn, 28 Jul 2026",
+          "url": "https://www.linkedin.com/posts/uber-com_next-stop-london-baidu-incs-apollo-go-activity-7487794001094291456-Az8e"
+        }
+      ],
+      "lastVerified": "2026-10-04"
+    },
+    {
+      "id": "sunderland-oxa",
+      "region": "UK",
+      "place": "Sunderland",
+      "country": "United Kingdom",
+      "operator": "Oxa (SAMS project led by Sunderland City Council, with Stagecoach)",
+      "type": "Shuttle",
+      "status": "ended",
+      "since": "2025-03-31",
+      "statusText": "Ended Mar 2025",
+      "fleet": "1 shuttle",
+      "fleetNote": "One autonomous Ford E-Transit shuttle (Oxa)",
+      "note": "Sunderland Advanced Mobility Shuttle (SAMS): a four-week trial carrying pre-registered public passengers with a safety driver on board, linking Park Lane Interchange and Sunderland Royal Hospital. The trial ended in March 2025.",
+      "sources": [
+        {
+          "label": "Oxa, 15 Jan 2025",
+          "url": "https://oxa.tech/news-and-insights/sunderlands-self-driving-bus-project-announces-oxa-as-new-autonomy-provider/"
+        },
+        {
+          "label": "BBC News, 31 Mar 2025",
+          "url": "https://www.bbc.co.uk/news/articles/cy0dr79x4xeo"
+        }
+      ],
+      "lastVerified": "2026-10-04"
+    },
+    {
+      "id": "zagreb-verne",
+      "region": "Europe",
+      "place": "Zagreb",
+      "country": "Croatia",
+      "operator": "Verne with Pony.ai and Uber",
+      "type": "Robotaxi",
+      "status": "driverless-testing",
+      "since": "2026-09-10",
+      "statusText": "Since 10 Sep 2026 (public rides with an operator on board since 8 Apr 2026)",
+      "fleet": null,
+      "fleetNote": "Not officially stated",
+      "note": "Paid public rides with an AV operator on board since 8 Apr 2026 (Verne app), also bookable on the Uber app since 19 Aug 2026. On 10 Sep 2026 Verne and Pony.ai began fully driverless test rides for invited passengers on a 22 km route to Zagreb Airport. The public service still has an operator on board.",
+      "sources": [
+        {
+          "label": "Verne, 8 Apr 2026",
+          "url": "https://www.letsverne.com/news-grid/verne-launches-europe%E2%80%99s-first-commercial-robotaxi-service."
+        },
+        {
+          "label": "Uber press release, 19 Aug 2026",
+          "url": "https://investor.uber.com/news-events/news/press-release-details/2026/Uber-Launches-Autonomous-Rides-in-Europe/default.aspx"
+        },
+        {
+          "label": "Verne, 10 Sep 2026",
+          "url": "https://www.letsverne.com/news-grid/verne-and-pony.ai-begin-fully-driverless-test-rides-with-passengers-on-public-roads-in-zagreb"
+        }
+      ],
+      "lastVerified": "2026-10-04"
+    },
+    {
+      "id": "hamburg-moia",
+      "region": "Europe",
+      "place": "Hamburg",
+      "country": "Germany",
+      "operator": "MOIA (Volkswagen Group), ALIKE project led by HOCHBAHN",
+      "type": "Robotaxi (ride-pooling)",
+      "status": "rides",
+      "since": "2026-07-15",
+      "statusText": "Since 15 Jul 2026",
+      "fleet": "Up to 10",
+      "fleetNote": "“Up to ten autonomous MOIA vehicles” (MOIA)",
+      "note": "Since 15 Jul 2026, selected pre-registered residents can book free shared rides in the self-driving ID. Buzz through the MOIA app, with a trained safety operator on board. The initial area covers parts of Winterhude, Barmbek and Wandsbek.",
+      "sources": [
+        {
+          "label": "MOIA press release, 15 Jul 2026",
+          "url": "https://www.moia.io/en/news/moia-launches-passenger-test-operation-in-hamburg"
+        }
+      ],
+      "lastVerified": "2026-10-04"
+    },
+    {
+      "id": "oslo-ruter-holo",
+      "region": "Europe",
+      "place": "Oslo (Groruddalen) and Lørenskog",
+      "country": "Norway",
+      "operator": "Ruter with Holo (vehicles and app from MOIA)",
+      "type": "Robotaxi (ride-pooling)",
+      "status": "paused",
+      "since": "2026-02-28",
+      "statusText": "Paused since 28 Feb 2026",
+      "fleet": "6 (planned)",
+      "fleetNote": "Six Volkswagen ID. Buzz from autumn 2026 (Ruter); the pilot began in late 2023 with five NIO ES8",
+      "note": "Ruter paused its self-driving pilot from 28 Feb 2026 while new vehicles were brought in. Its project page (updated 16 Sep 2026) says the service will reopen to passengers in September 2026, with a safety operator in the driver’s seat. We could not confirm that it has restarted.",
+      "sources": [
+        {
+          "label": "Ruter press release, 11 Feb 2026 (Norwegian)",
+          "url": "https://www.mynewsdesk.com/no/ruter/pressreleases/midlertidig-opphold-for-ruters-selvkjoeringstjeneste-i-groruddalen-og-loerenskog-3431670"
+        },
+        {
+          "label": "Ruter project page, updated 16 Sep 2026 (Norwegian)",
+          "url": "https://ruter.no/om-oss/prosjekter-og-innovasjon/selvkjoringspiloten"
+        }
+      ],
+      "lastVerified": "2026-10-04"
+    },
+    {
+      "id": "drome-beti-weride",
+      "region": "Europe",
+      "place": "Drôme (Valence TGV – Rovaltain)",
+      "country": "France",
+      "operator": "beti with WeRide (with Renault Group and Macif)",
+      "type": "Shuttle (robobus)",
+      "status": "rides",
+      "since": "2025-03-10",
+      "statusText": "Since 10 Mar 2025; last confirmed Apr 2026",
+      "fleet": null,
+      "fleetNote": "Not officially stated as a number (WeRide: “several” eight-passenger robobuses)",
+      "note": "A 3.3 km public-road shuttle route between Valence TGV station and the Rovaltain business park, which started on 10 Mar 2025. WeRide called it fully driverless, but France 3 reported in April 2026 that a safety agent was still on board, due to leave the vehicle in early 2027. That report said the current trial phase ran until 4 Apr 2026. Last confirmed in April 2026.",
+      "sources": [
+        {
+          "label": "WeRide press release, 27 Feb 2025",
+          "url": "https://ir.weride.ai/news-releases/news-release-details/weride-makes-first-european-fully-driverless-commercial-robobus"
+        },
+        {
+          "label": "France 3 Auvergne-Rhône-Alpes, 1 Apr 2026 (French)",
+          "url": "https://france3-regions.franceinfo.fr/auvergne-rhone-alpes/drome/on-eprouve-un-sentiment-de-securite-correct-meme-si-ca-fait-bizarre-la-navette-sans-chauffeur-et-autonome-en-derniere-phase-de-test-a-valence-3326813.html"
+        }
+      ],
+      "lastVerified": "2026-10-04"
+    },
+    {
+      "id": "eastern-switzerland-amigo",
+      "region": "Europe",
+      "place": "Eastern Switzerland (Altstätten area)",
+      "country": "Switzerland",
+      "operator": "PostBus (AmiGo) with Baidu Apollo Go",
+      "type": "Robotaxi (on-demand)",
+      "status": "testing",
+      "since": "2026-06-01",
+      "statusText": "Since 1 Jun 2026",
+      "fleet": null,
+      "fleetNote": "Current fleet not stated; PostBus plans regular operation with up to 25 vehicles without safety drivers from 2027",
+      "note": "Under a special permit from the Federal Roads Office (FEDRO), Apollo RT6 vehicles have driven in automated mode with safety drivers on board since 1 Jun 2026, across an 80 km² area in St. Gallen and the two Appenzell cantons. No customers yet; a test-user group is being prepared.",
+      "sources": [
+        {
+          "label": "PostBus press release, 12 Jun 2026",
+          "url": "https://www.postauto.ch/en/about-us-and-news/innovation/automated-driving/amigo/amigo-news/2026/milestone-for-autonomous-mobility-in-switzerland"
+        },
+        {
+          "label": "PostBus project update, 29 Sep 2026 (German)",
+          "url": "https://www2.postauto.ch/de/ueber-uns-und-aktuelles/innovation/automatisiertes-fahren/amigo/amigo-news/2026/amigo-projektupdate-herbst-2026"
+        }
+      ],
+      "lastVerified": "2026-10-04"
+    },
+    {
+      "id": "munich-uber-momenta",
+      "region": "Europe",
+      "place": "Munich",
+      "country": "Germany",
+      "operator": "Momenta with Uber",
+      "type": "Robotaxi",
+      "status": "announced",
+      "since": "2025-09-08",
+      "statusText": "Announced Sep 2025",
+      "fleet": null,
+      "fleetNote": "Not officially stated",
+      "note": "Uber and Momenta announced plans in Sep 2025 for Level 4 testing in Munich in 2026. On 29 Jul 2026 Momenta said it had received Germany-wide Level 4 testing approval from the KBA. We have not found a confirmed start of public-road testing in Munich.",
+      "sources": [
+        {
+          "label": "Momenta/Uber announcement, 8 Sep 2025",
+          "url": "https://momenta.ai/en/article/316.html"
+        },
+        {
+          "label": "Momenta, 29 Jul 2026",
+          "url": "https://momenta.ai/en/article/596.html"
+        }
+      ],
+      "lastVerified": "2026-10-04"
+    }
+  ],
+  "permits": {
+    "label": "UK driverless passenger permits granted",
+    "value": 0,
+    "asOf": "2026-10-04",
+    "note": "No automated passenger services (APS) permit has been announced. On 1 Oct 2026 Covington’s Global Policy Watch reported that permits for the first automated passenger services were “yet to be granted”, and that as of late September no operator had applied for a driverless permit.",
+    "sources": [
+      {
+        "label": "Global Policy Watch (Covington), 1 Oct 2026",
+        "url": "https://www.globalpolicywatch.com/2026/10/overview-of-eu-and-uk-regulatory-developments-relating-to-autonomous-vehicles/"
+      },
+      {
+        "label": "DVSA: Apply for an APS permit",
+        "url": "https://aps.data.dvsa.gov.uk/"
+      }
+    ]
+  },
+  "changelog": [
+    {
+      "date": "2026-10-04",
+      "title": "Baseline: tracker launched",
+      "items": [
+        "First version of the tracker, with 11 operator–city entries (5 UK, 6 elsewhere in Europe), each checked against the linked sources on 4 Oct 2026.",
+        "UK driverless passenger permits granted: 0.",
+        "Not yet confirmed: whether Ruter’s Oslo pilot has restarted, whether beti’s Drôme shuttle has run since April 2026, and when Uber’s own Apollo Go testing in London began."
+      ]
+    }
+  ]
+}

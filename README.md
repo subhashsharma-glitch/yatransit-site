@@ -1,6 +1,6 @@
 # YA Transit website (first draft)
 
-Static website for **Yorkshire Autonomous Transit Ltd** (YA Transit). Plain HTML, CSS and a small amount of vanilla JavaScript. No build step and no dependencies. The site itself sets no cookies; the two forms (monthly briefing and route survey) post to FormSubmit (formsubmit.co), a free third-party form service that emails submissions to hello@yatransit.co.uk. Fonts (Inter and Space Grotesk, SIL Open Font Licence) are hosted in `assets/fonts/`.
+Static website for **Yorkshire Autonomous Transit Ltd** (YA Transit). Plain HTML, CSS and a small amount of vanilla JavaScript. No build step and no dependencies. The site itself sets no cookies; the three forms (monthly briefing, route survey and tracker corrections/sightings) post to FormSubmit (formsubmit.co), a free third-party form service that emails submissions to hello@yatransit.co.uk. Fonts (Inter and Space Grotesk, SIL Open Font Licence) are hosted in `assets/fonts/`.
 
 ## Files
 
@@ -10,11 +10,14 @@ privacy.html        Privacy notice – DRAFT TEMPLATE, review before publishing
 resources.html      Resources page – free downloadable guides and templates
 news/               News & Insights: index.html, one page per article, feed.xml (RSS)
 survey.html         Route survey (FormSubmit form)
-thanks.html         Thank-you page the forms return to (?form=briefing or ?form=survey)
+tracker.html        UK & Europe Robotaxi Tracker (table pre-rendered; js/tracker.js re-renders it from tracker/data.json)
+tracker/            data.json (tracker data) and index.html (sends /tracker/ to /tracker.html)
+thanks.html         Thank-you page the forms return to (?form=briefing, ?form=survey or ?form=tracker)
 resources/          Published downloads, their WebP thumbnails and published.json (manifest)
 404.html            "Page not found" page (GitHub Pages uses it automatically)
 css/styles.css      All styles
 js/main.js          Mobile menu, footer year, form checks and thank-you message
+js/tracker.js       Tracker table rendering and filters (loaded on tracker.html only)
 favicon.svg / .ico  Browser icons
 assets/             Logos (SVG), Apple touch icon, social sharing image, fonts
 robots.txt, sitemap.xml
@@ -40,9 +43,18 @@ The news pages are plain HTML. To add one by hand:
 
 (On the build machine, `_dev/news_content.py` + `_dev/build_news.py` regenerate the news pages, feed, survey and thank-you page.)
 
+## Updating the tracker
+
+1. Re-check each source and edit `tracker/data.json`: an entry's `status` (one of the ids in `statuses`), `statusText`, `note`, `fleet` (only an officially stated figure, otherwise `null`), `sources` and `lastVerified`. Update `lastVerified` at the top and the `permits` counter.
+2. Add a dated entry to the top of `changelog` describing what changed (weekly).
+3. Update the matching rows in the pre-rendered table in `tracker.html` (the no-JS fallback), and the "Last verified" dates on the page and in the home-page teaser. (On the build machine, `_dev/build_tracker.py` regenerates `tracker.html` from the JSON.)
+4. Update the `lastmod` for `tracker.html` in `sitemap.xml`.
+
+Only use facts from public sources you have checked, and link them. Don't copy data from other trackers.
+
 ## Forms (FormSubmit)
 
-Both forms post to `https://formsubmit.co/7b9ac021329bbe6ac2b7830b0eee257e`, the random alias FormSubmit issued for hello@yatransit.co.uk when the forms were activated on 2 October 2026 (it keeps the email address out of the page source). Each has a hidden `_honey` honeypot field, `_captcha=false` (no Google reCAPTCHA), `_template=table` and `_next` pointing at `thanks.html`. Activation is per website: if the forms ever move to another domain, the first submission there triggers a new activation email to hello@yatransit.co.uk. Briefing sign-ups arrive as emails; there is no mailing-list tool, so keep the list (and unsubscribes) yourself.
+All three forms post to `https://formsubmit.co/7b9ac021329bbe6ac2b7830b0eee257e`, the random alias FormSubmit issued for hello@yatransit.co.uk when the forms were activated on 2 October 2026 (it keeps the email address out of the page source). Each has a hidden `_honey` honeypot field, `_captcha=false` (no Google reCAPTCHA), `_template=table` and `_next` pointing at `thanks.html`. Activation is per website: if the forms ever move to another domain, the first submission there triggers a new activation email to hello@yatransit.co.uk. Briefing sign-ups arrive as emails; there is no mailing-list tool, so keep the list (and unsubscribes) yourself.
 
 ## Preview locally
 
