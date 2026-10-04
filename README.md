@@ -7,13 +7,11 @@ Static website for **Yorkshire Autonomous Transit Ltd** (YA Transit). Plain HTML
 ```
 index.html          Home page (all main sections, anchor navigation)
 privacy.html        Privacy notice – DRAFT TEMPLATE, review before publishing
-resources.html      Resources page – free downloadable guides and templates
 news/               News & Insights: index.html, one page per article, feed.xml (RSS)
 survey.html         Route survey (FormSubmit form)
 tracker.html        UK & Europe Robotaxi Tracker (table pre-rendered; js/tracker.js re-renders it from tracker/data.json)
 tracker/            data.json (tracker data) and index.html (sends /tracker/ to /tracker.html)
 thanks.html         Thank-you page the forms return to (?form=briefing, ?form=survey or ?form=tracker)
-resources/          Published downloads, their WebP thumbnails and published.json (manifest)
 404.html            "Page not found" page (GitHub Pages uses it automatically)
 css/styles.css      All styles
 js/main.js          Mobile menu, footer year, form checks and thank-you message
@@ -25,13 +23,6 @@ screenshots/        Preview images (local only – excluded from the repository 
 _dev/               Helper scripts used to make the screenshots, icons and social image
                     (Python + Playwright). Local only – excluded from the repository by .gitignore.
 ```
-
-## Adding a download to the Resources page
-
-1. Copy the file into `resources/` with a lowercase, URL-safe name (e.g. `my-guide.pdf`). Don't edit the original; edit the copy if anything needs changing.
-2. Add a thumbnail as a WebP about 480 px wide (4:5 like the others), e.g. `resources/my-guide-thumb.webp`.
-3. Copy one of the `<article class="resource-card">` blocks in `resources.html` and update the title, description, file type, size and links.
-4. Add an entry to `resources/published.json` with the source path and the date published.
 
 ## Adding a News & Insights article
 

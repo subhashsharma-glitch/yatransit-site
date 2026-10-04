@@ -644,53 +644,8 @@ section[id] { scroll-margin-top: calc(var(--header-h) + 8px); }
 .placeholder { background: #FFF4D6; padding: 0 4px; border-radius: 4px; color: #5C4200; font-weight: 500; }
 .back-link { display: inline-block; margin-top: 24px; }
 
-/* ---------- Resources page ---------- */
+/* ---------- Page intro + outline button ---------- */
 .page-intro { font-size: clamp(1.05rem, 1.5vw, 1.2rem); max-width: 40em; margin-top: 12px !important; }
-.resources-section { padding: 72px 0 112px; }
-.resource-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 28px; }
-.resource-card {
-  display: flex; flex-direction: column;
-  background: var(--white);
-  border: 1px solid var(--slate-100);
-  border-radius: var(--radius-lg);
-  overflow: hidden;
-  box-shadow: var(--shadow-sm);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-.resource-card:hover { transform: translateY(-4px); box-shadow: var(--shadow); }
-.resource-thumb {
-  display: flex; align-items: center; justify-content: center;
-  height: 300px;
-  padding: 28px;
-  overflow: hidden;
-  background:
-    radial-gradient(280px 200px at 100% 0%, rgba(46, 230, 197, 0.16), transparent 70%),
-    linear-gradient(160deg, var(--navy-800), var(--navy-950));
-}
-.resource-thumb img {
-  height: 100%; width: auto; max-width: 100%;
-  aspect-ratio: 4 / 5;
-  object-fit: contain;
-  border-radius: 8px;
-  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.45);
-  transition: transform 0.25s ease;
-}
-.resource-card:hover .resource-thumb img { transform: scale(1.03) rotate(-0.6deg); }
-.resource-body { padding: 24px 26px 8px; flex: 1 1 auto; }
-.resource-kind {
-  font-size: 0.75rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase;
-  color: var(--teal-dark); margin: 0 0 8px;
-}
-.resource-title { font-size: 1.35rem; margin: 0 0 10px; }
-.resource-desc { color: var(--slate-600); margin: 0 0 14px; }
-.resource-meta {
-  display: inline-block; margin: 0;
-  font-size: 0.8125rem; font-weight: 600; color: var(--slate-600);
-  background: var(--off-white); border: 1px solid var(--slate-100);
-  border-radius: 999px; padding: 4px 12px;
-}
-.resource-actions { display: flex; flex-wrap: wrap; gap: 10px; padding: 18px 26px 26px; }
-.resource-actions .btn { flex: 1 1 100%; }
 .btn-outline {
   color: var(--navy-900);
   background: var(--white);
@@ -1040,9 +995,6 @@ ol.rt-stages > li .rt-status::before { content: counter(stage) ". "; font-weight
   .vehicle-card { padding: 36px 18px 22px; }
   .faq summary { padding: 18px 20px; font-size: 1.05rem; }
   .faq-body { padding: 0 20px 18px; }
-  .resources-section { padding: 48px 0 80px; }
-  .resource-grid { grid-template-columns: 1fr; gap: 22px; }
-  .resource-thumb { height: 280px; }
   .footer-inner { grid-template-columns: 1fr; gap: 32px; }
   .route-diagram .city-name { font-size: 30px; }
   .route-diagram .city-sub { display: none; }
