@@ -1,6 +1,6 @@
 {
   "title": "UK & Europe Robotaxi Tracker",
-  "lastVerified": "2026-10-04",
+  "lastVerified": "2026-10-05",
   "statuses": [
     {
       "id": "announced",
@@ -49,8 +49,8 @@
       "status": "rides",
       "since": "2026-09-03",
       "statusText": "Since 3 Sep 2026",
-      "fleet": null,
-      "fleetNote": "Not officially stated (Uber: “a small number of vehicles” at launch)",
+      "fleet": "Up to 15",
+      "fleetNote": "TfL approved Wayve’s modification on up to 15 vehicles on a trial basis (TfL FOI response, Sep 2026)",
       "note": "Supervised rides on the Uber app since 3 Sep 2026, with a TfL-licensed private hire driver on board. The service runs under private hire licensing, not the new driverless permit scheme.",
       "sources": [
         {
@@ -60,9 +60,46 @@
         {
           "label": "Global Policy Watch (Covington), 1 Oct 2026",
           "url": "https://www.globalpolicywatch.com/2026/10/overview-of-eu-and-uk-regulatory-developments-relating-to-autonomous-vehicles/"
+        },
+        {
+          "label": "TfL FOI response FOI-1660-2627, published 4 Sep 2026",
+          "url": "https://tfl.gov.uk/corporate/transparency/freedom-of-information/foi-request-detail?referenceId=FOI-1660-2627"
         }
       ],
-      "lastVerified": "2026-10-04"
+      "lastVerified": "2026-10-05"
+    },
+    {
+      "id": "cambridge-connector",
+      "region": "UK",
+      "place": "Cambridge",
+      "country": "United Kingdom",
+      "operator": "Connector (Greater Cambridge Partnership; operated by Whippet, technology from Fusion Processing, Alexander Dennis buses)",
+      "type": "Shuttle (self-driving bus)",
+      "status": "rides",
+      "since": "2025-06-24",
+      "statusText": "Since 24 Jun 2025; last confirmed Aug 2026",
+      "fleet": "3 buses",
+      "fleetNote": "“Three cutting-edge buses for passenger trials” (Greater Cambridge Partnership)",
+      "note": "Free timetabled self-driving bus trials with a trained safety driver on board at all times: from 24 Jun 2025 between Madingley Road Park & Ride, Eddington and Cambridge West, and from 17 Dec 2025 linking Trumpington and Babraham Road Park & Rides with the Cambridge Biomedical Campus. In Aug 2026 the government-funded Commercialising Connector project (£3.88m) was announced to extend the trials. The organisers say services may not run every day.",
+      "sources": [
+        {
+          "label": "Greater Cambridge Partnership, 23 Jun 2025",
+          "url": "https://www.greatercambridge.org.uk/news/connector-starts-passenger-trials"
+        },
+        {
+          "label": "Greater Cambridge Partnership, 16 Dec 2025",
+          "url": "https://www.greatercambridge.org.uk/news/award-winning-self-driving-buses-are-on-the-road-in-cambridge-and-free-to-use"
+        },
+        {
+          "label": "Cambridge Independent, 10 Aug 2026",
+          "url": "https://www.cambridgeindependent.co.uk/news/3-88m-funding-boost-to-expand-self-driving-bus-trials-in-ca-9477804/"
+        },
+        {
+          "label": "Greater Cambridge Partnership: Connector",
+          "url": "https://www.greatercambridge.org.uk/smart-technology-innovation/connector"
+        }
+      ],
+      "lastVerified": "2026-10-05"
     },
     {
       "id": "london-waymo",
@@ -87,7 +124,7 @@
           "url": "https://waymo.com/blog/2025/10/hello-london-your-waymo-ride-is-arriving/"
         }
       ],
-      "lastVerified": "2026-10-04"
+      "lastVerified": "2026-10-05"
     },
     {
       "id": "london-baidu-lyft",
@@ -112,7 +149,7 @@
           "url": "https://www.prnewswire.com/news-releases/baidus-apollo-go-and-freenow-by-lyft-begin-road-testing-in-london-302836171.html"
         }
       ],
-      "lastVerified": "2026-10-04"
+      "lastVerified": "2026-10-05"
     },
     {
       "id": "london-baidu-uber",
@@ -137,7 +174,28 @@
           "url": "https://www.linkedin.com/posts/uber-com_next-stop-london-baidu-incs-apollo-go-activity-7487794001094291456-Az8e"
         }
       ],
-      "lastVerified": "2026-10-04"
+      "lastVerified": "2026-10-05"
+    },
+    {
+      "id": "cambridge-nissan-adventure",
+      "region": "UK",
+      "place": "Cambridge",
+      "country": "United Kingdom",
+      "operator": "Nissan (ADventure research project, with WMG at the University of Warwick and PAVE UK)",
+      "type": "Robotaxi-style mobility service (research trial)",
+      "status": "announced",
+      "since": "2026-09-27",
+      "statusText": "Announced 27 Sep 2026",
+      "fleet": "1 test car",
+      "fleetNote": "One specially equipped 2022 Nissan LEAF test car (Nissan)",
+      "note": "A £3m research project backed by the UK Government’s CAM Pathfinder programme to study how an autonomous passenger mobility service could work in Cambridge, combining real-world testing with community engagement. Nissan says the project will end with a public-road demonstration in Cambridge. No start date for public-road testing has been given.",
+      "sources": [
+        {
+          "label": "Nissan press release, 27 Sep 2026",
+          "url": "https://europe.nissannews.com/en-GB/releases/nissan-launches-autonomous-drive-research-project-to-bring-future-mobility-service-to-uk-streets"
+        }
+      ],
+      "lastVerified": "2026-10-05"
     },
     {
       "id": "sunderland-oxa",
@@ -162,7 +220,7 @@
           "url": "https://www.bbc.co.uk/news/articles/cy0dr79x4xeo"
         }
       ],
-      "lastVerified": "2026-10-04"
+      "lastVerified": "2026-10-05"
     },
     {
       "id": "zagreb-verne",
@@ -191,7 +249,7 @@
           "url": "https://www.letsverne.com/news-grid/verne-and-pony.ai-begin-fully-driverless-test-rides-with-passengers-on-public-roads-in-zagreb"
         }
       ],
-      "lastVerified": "2026-10-04"
+      "lastVerified": "2026-10-05"
     },
     {
       "id": "hamburg-moia",
@@ -205,14 +263,43 @@
       "statusText": "Since 15 Jul 2026",
       "fleet": "Up to 10",
       "fleetNote": "“Up to ten autonomous MOIA vehicles” (MOIA)",
-      "note": "Since 15 Jul 2026, selected pre-registered residents can book free shared rides in the self-driving ID. Buzz through the MOIA app, with a trained safety operator on board. The initial area covers parts of Winterhude, Barmbek and Wandsbek.",
+      "note": "Since 15 Jul 2026, selected pre-registered residents can book free shared rides in the self-driving ID. Buzz through the MOIA app, with a trained safety operator on board. The initial area covers parts of Winterhude, Barmbek and Wandsbek. On 27 Sep 2026 heise online, citing WirtschaftsWoche, reported that Volkswagen is examining options for MOIA’s future, from new investors to closure, by the end of 2026. We have not seen an official statement on the Hamburg service.",
       "sources": [
         {
           "label": "MOIA press release, 15 Jul 2026",
           "url": "https://www.moia.io/en/news/moia-launches-passenger-test-operation-in-hamburg"
+        },
+        {
+          "label": "heise online, 27 Sep 2026 (reporting WirtschaftsWoche)",
+          "url": "https://www.heise.de/en/news/VW-considers-exiting-robotaxi-service-Moia-Germany-losing-ground-11467307.html"
         }
       ],
-      "lastVerified": "2026-10-04"
+      "lastVerified": "2026-10-05"
+    },
+    {
+      "id": "furttal-iamo",
+      "region": "Europe",
+      "place": "Furttal (Canton of Zurich)",
+      "country": "Switzerland",
+      "operator": "iamo (Swiss Transit Lab, SBB and the cantons of Zurich and Aargau; technology partner WeRide)",
+      "type": "Robotaxi (on-demand)",
+      "status": "rides",
+      "since": "2026-09-28",
+      "statusText": "Since 28 Sep 2026",
+      "fleet": "3 cars",
+      "fleetNote": "Three passenger cars (iamo); minibuses are planned later",
+      "note": "Since 28 Sep 2026 members of the public can book paid rides (CHF 4.70 plus CHF 0.38 per km) in the iamo app, daily from 1pm to 5pm, between almost 100 stops in Boppelsen, Dänikon, Hüttikon and Otelfingen. A safety person sits in the driver’s seat. The Federal Roads Office (FEDRO/ASTRA) approved automated driving for the pilot in Nov 2025. Rides without a safety person are planned later with minibuses, subject to FEDRO approval.",
+      "sources": [
+        {
+          "label": "iamo joint press release, 24 Sep 2026 (German)",
+          "url": "https://iamo.swiss/news/oeffentlicher-passagierbetrieb-furttal"
+        },
+        {
+          "label": "Canton of Zurich press release, 24 Sep 2026 (German)",
+          "url": "https://www.zh.ch/de/news-uebersicht/medienmitteilungen/2026/09/im-furttal-startet-der-passagierbetrieb-mit-selbstfahrenden-fahrzeugen.html"
+        }
+      ],
+      "lastVerified": "2026-10-05"
     },
     {
       "id": "oslo-ruter-holo",
@@ -226,7 +313,7 @@
       "statusText": "Paused since 28 Feb 2026",
       "fleet": "6 (planned)",
       "fleetNote": "Six Volkswagen ID. Buzz from autumn 2026 (Ruter); the pilot began in late 2023 with five NIO ES8",
-      "note": "Ruter paused its self-driving pilot from 28 Feb 2026 while new vehicles were brought in. Its project page (updated 16 Sep 2026) says the service will reopen to passengers in September 2026, with a safety operator in the driver’s seat. We could not confirm that it has restarted.",
+      "note": "Ruter paused its self-driving pilot from 28 Feb 2026 while new vehicles were brought in. Its project page (updated 16 Sep 2026) says the service will reopen to passengers in September 2026, with a safety operator in the driver’s seat. As of 5 Oct 2026 we have found no announcement that it has restarted.",
       "sources": [
         {
           "label": "Ruter press release, 11 Feb 2026 (Norwegian)",
@@ -237,7 +324,7 @@
           "url": "https://ruter.no/om-oss/prosjekter-og-innovasjon/selvkjoringspiloten"
         }
       ],
-      "lastVerified": "2026-10-04"
+      "lastVerified": "2026-10-05"
     },
     {
       "id": "drome-beti-weride",
@@ -262,7 +349,36 @@
           "url": "https://france3-regions.franceinfo.fr/auvergne-rhone-alpes/drome/on-eprouve-un-sentiment-de-securite-correct-meme-si-ca-fait-bizarre-la-navette-sans-chauffeur-et-autonome-en-derniere-phase-de-test-a-valence-3326813.html"
         }
       ],
-      "lastVerified": "2026-10-04"
+      "lastVerified": "2026-10-05"
+    },
+    {
+      "id": "berlin-bvg-nowel4",
+      "region": "Europe",
+      "place": "Berlin (north-west)",
+      "country": "Germany",
+      "operator": "BVG (NoWeL4 project), with Volkswagen and MOIA",
+      "type": "Shuttle (on-demand ride-pooling)",
+      "status": "testing",
+      "since": "2025-10-20",
+      "statusText": "Since Oct 2025; passenger trials delayed (last confirmed Jul 2026)",
+      "fleet": "5",
+      "fleetNote": "Five VW ID. Buzz AD minibuses (BVG)",
+      "note": "Level 4-capable VW ID. Buzz AD vehicles have been tested on public roads in parts of Spandau, Charlottenburg-Wilmersdorf and Reinickendorf since Oct 2025, with a safety driver on board and no passengers. Free rides for selected test participants were planned for the first half of 2026; in Jul 2026 BVG told dpa it now aims to start passenger operation “bestenfalls noch in diesem Jahr” (at best, later this year).",
+      "sources": [
+        {
+          "label": "BVG: NoWeL4 project page",
+          "url": "https://www.bvg.de/en/company/sustainable-mobility/mobility-of-the-future/nowel4"
+        },
+        {
+          "label": "electrive, 20 Oct 2025",
+          "url": "https://www.electrive.com/2025/10/20/bvg-and-moia-launch-autonomous-id-buzz-trials-in-berlin/"
+        },
+        {
+          "label": "DIE ZEIT (dpa), 26 Jul 2026 (German)",
+          "url": "https://www.zeit.de/news/2026-07/26/autonome-kleinbusse-verzoegerungen-bei-bvg-projekt"
+        }
+      ],
+      "lastVerified": "2026-10-05"
     },
     {
       "id": "eastern-switzerland-amigo",
@@ -276,7 +392,7 @@
       "statusText": "Since 1 Jun 2026",
       "fleet": null,
       "fleetNote": "Current fleet not stated; PostBus plans regular operation with up to 25 vehicles without safety drivers from 2027",
-      "note": "Under a special permit from the Federal Roads Office (FEDRO), Apollo RT6 vehicles have driven in automated mode with safety drivers on board since 1 Jun 2026, across an 80 km² area in St. Gallen and the two Appenzell cantons. No customers yet; a test-user group is being prepared.",
+      "note": "Under a special permit from the Federal Roads Office (FEDRO), Apollo RT6 vehicles have driven in automated mode with safety drivers on board since 1 Jun 2026, across an 80 km² area in St. Gallen and the two Appenzell cantons. No customers yet: PostBus’s autumn update (29 Sep 2026) says the booking app for a first test-user group is being developed and tested.",
       "sources": [
         {
           "label": "PostBus press release, 12 Jun 2026",
@@ -287,7 +403,7 @@
           "url": "https://www2.postauto.ch/de/ueber-uns-und-aktuelles/innovation/automatisiertes-fahren/amigo/amigo-news/2026/amigo-projektupdate-herbst-2026"
         }
       ],
-      "lastVerified": "2026-10-04"
+      "lastVerified": "2026-10-05"
     },
     {
       "id": "munich-uber-momenta",
@@ -301,7 +417,7 @@
       "statusText": "Announced Sep 2025",
       "fleet": null,
       "fleetNote": "Not officially stated",
-      "note": "Uber and Momenta announced plans in Sep 2025 for Level 4 testing in Munich in 2026. On 29 Jul 2026 Momenta said it had received Germany-wide Level 4 testing approval from the KBA. We have not found a confirmed start of public-road testing in Munich.",
+      "note": "Uber and Momenta announced plans in Sep 2025 for Level 4 testing in Munich in 2026. The KBA’s list of testing approvals (dated 18 Aug 2026) includes a Level 4 approval for Momenta Europe GmbH dated 8 Jul 2026, with no local restriction. On 5 Oct 2026 Uber’s CEO told Handelsblatt that a limited Munich pilot with safety drivers, with partners Momenta and Autobrain, is about to start. We have not found a confirmed start of public-road testing in Munich.",
       "sources": [
         {
           "label": "Momenta/Uber announcement, 8 Sep 2025",
@@ -310,20 +426,78 @@
         {
           "label": "Momenta, 29 Jul 2026",
           "url": "https://momenta.ai/en/article/596.html"
+        },
+        {
+          "label": "KBA list of testing approvals, as of 18 Aug 2026 (German, PDF)",
+          "url": "https://www.kba.de/DE/Themen/Typgenehmigung/Autonomes_automatisiertes_Fahren/Erprobungsgenehmigung/dl_liste_erprobungsgenehmigungen.pdf?__blob=publicationFile&v=7"
+        },
+        {
+          "label": "dts news agency via finanznachrichten.de, 5 Oct 2026 (German)",
+          "url": "https://www.finanznachrichten.de/nachrichten-2026-10/69750815-uber-startet-pilotbetrieb-fuer-robotaxis-in-muenchen-003.htm"
         }
       ],
-      "lastVerified": "2026-10-04"
+      "lastVerified": "2026-10-05"
+    },
+    {
+      "id": "munich-waymo",
+      "region": "Europe",
+      "place": "Munich",
+      "country": "Germany",
+      "operator": "Waymo",
+      "type": "Robotaxi",
+      "status": "announced",
+      "since": "2026-08-25",
+      "statusText": "Announced 25 Aug 2026",
+      "fleet": null,
+      "fleetNote": "Not officially stated",
+      "note": "Waymo announced on 25 Aug 2026 that its vehicles would start driving manually in Munich to map the city, followed by testing with trained specialists behind the wheel. It aims to open commercial ride-hailing to the public towards the end of 2027, subject to approvals. We have not found confirmation that automated testing has begun.",
+      "sources": [
+        {
+          "label": "Waymo blog, 25 Aug 2026",
+          "url": "https://waymo.com/blog/2026/08/waymo-in-munich"
+        }
+      ],
+      "lastVerified": "2026-10-05"
+    },
+    {
+      "id": "madrid-weride-uber",
+      "region": "Europe",
+      "place": "Madrid region",
+      "country": "Spain",
+      "operator": "WeRide with Uber and AVOMO (Moove Cars Group)",
+      "type": "Robotaxi",
+      "status": "announced",
+      "since": "2026-06-02",
+      "statusText": "Announced Jun 2026; national test permit 10 Sep 2026",
+      "fleet": "20 (planned)",
+      "fleetNote": "Initial phase of twenty vehicles with an in-car vehicle specialist (WeRide)",
+      "note": "WeRide and Uber announced in Jun 2026 a commercial robotaxi pilot in the Madrid region, bookable on the Uber app. On 10 Sep 2026 they said Spain’s Directorate General of Traffic (DGT) had granted a national permit for Level 4 vehicles, allowing mapping, route validation and readiness testing. Commercial operations are expected by the end of 2026. We have not found a confirmed start of automated public-road testing.",
+      "sources": [
+        {
+          "label": "WeRide press release, 2 Jun 2026",
+          "url": "https://weride.ai/posts/labielacn390og6i8haglfzd"
+        },
+        {
+          "label": "WeRide press release, 10 Sep 2026",
+          "url": "https://www.weride.ai/posts/flzoem3a9it3lta5gbdg6n4s"
+        }
+      ],
+      "lastVerified": "2026-10-05"
     }
   ],
   "permits": {
     "label": "UK driverless passenger permits granted",
     "value": 0,
-    "asOf": "2026-10-04",
-    "note": "No automated passenger services (APS) permit has been announced. On 1 Oct 2026 Covington’s Global Policy Watch reported that permits for the first automated passenger services were “yet to be granted”, and that as of late September no operator had applied for a driverless permit.",
+    "asOf": "2026-10-05",
+    "note": "No automated passenger services (APS) permit has been announced. On 1 Oct 2026 Covington’s Global Policy Watch reported that permits for the first automated passenger services were “yet to be granted”, and that as of late September no operator had applied for a driverless permit. In an FOI response published on 4 Sep 2026, TfL said it had received no formal APS consent requests.",
     "sources": [
       {
         "label": "Global Policy Watch (Covington), 1 Oct 2026",
         "url": "https://www.globalpolicywatch.com/2026/10/overview-of-eu-and-uk-regulatory-developments-relating-to-autonomous-vehicles/"
+      },
+      {
+        "label": "TfL FOI response, published 4 Sep 2026",
+        "url": "https://tfl.gov.uk/corporate/transparency/freedom-of-information/foi-request-detail?referenceId=FOI-1660-2627"
       },
       {
         "label": "DVSA: Apply for an APS permit",
@@ -332,6 +506,20 @@
     ]
   },
   "changelog": [
+    {
+      "date": "2026-10-05",
+      "title": "Weekly review: six entries added, no status changes",
+      "items": [
+        "No status changes to existing entries; all 11 existing entries re-verified against their sources on 5 Oct 2026.",
+        "Added: iamo in the Furttal, Canton of Zurich (Passenger rides with safety driver, since 28 Sep 2026; 3 cars). The project partners say it is the first time passengers in Switzerland can book self-driving vehicles; a safety person sits in the driver’s seat.",
+        "Added: Nissan’s ADventure research project in Cambridge (Announced, 27 Sep 2026).",
+        "Added four entries we had missed at launch: Greater Cambridge Partnership’s Connector self-driving buses (Passenger rides with safety driver, since Jun 2025), BVG’s NoWeL4 shuttles in Berlin (Testing with safety driver, since Oct 2025), Waymo in Munich (Announced, Aug 2026) and WeRide with Uber in the Madrid region (Announced, Jun 2026; national test permit 10 Sep 2026).",
+        "London (Wayve with Uber): fleet now shown as “Up to 15”, the number of vehicles TfL approved for the trial.",
+        "Munich (Momenta with Uber): we checked the KBA list of testing approvals, which includes Momenta’s Level 4 approval, and added Uber’s 5 Oct 2026 statement that a pilot with safety drivers is about to start. Status stays at Announced.",
+        "Hamburg (MOIA): added a press report that Volkswagen is reviewing MOIA’s future. Oslo (Ruter): still no confirmed restart.",
+        "UK driverless passenger permits granted: still 0."
+      ]
+    },
     {
       "date": "2026-10-04",
       "title": "Baseline: tracker launched",
