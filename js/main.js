@@ -102,3 +102,24 @@
     el.textContent = new Date().getFullYear();
   });
 })();
+
+/* ---------- External links open in a new tab (covers JS-rendered and future content) ---------- */
+(function () {
+  var OWN = /(^|\.)yatransit\.(co\.uk|uk|com)$/i;
+  function ext(root) {
+    (root && root.querySelectorAll ? root : document).querySelectorAll('a[href^="http"]').forEach(function (a) {
+      var h = a.hostname.toLowerCase();
+      if (OWN.test(h) || h === location.hostname) return;
+      if (a.target !== "_blank") a.target = "_blank";
+      if (a.rel !== "noopener noreferrer") a.rel = "noopener noreferrer";
+      if (!a.querySelector(".ext-nt")) {
+        var s = document.createElement("span");
+        s.className = "visually-hidden ext-nt"; s.textContent = " (opens in new tab)"; a.appendChild(s);
+      }
+    });
+  }
+  ext(document);
+  new MutationObserver(function (ms) {
+    ms.forEach(function (m) { m.addedNodes.forEach(function (n) { if (n.nodeType === 1) ext(n.parentNode || n); }); });
+  }).observe(document.body, { childList: true, subtree: true });
+})();

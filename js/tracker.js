@@ -24,7 +24,7 @@
       ? "<strong>" + esc(o.fleet) + '</strong><span class="rt-sub">' + esc(o.fleetNote) + "</span>"
       : '<span class="rt-muted">' + esc(o.fleetNote) + "</span>";
     var srcs = (o.sources || []).map(function (s) {
-      return '<li><a href="' + esc(safeUrl(s.url)) + '" rel="noopener">' + esc(s.label) + "</a></li>";
+      return '<li><a href="' + esc(safeUrl(s.url)) + '" target="_blank" rel="noopener noreferrer">' + esc(s.label) + '<span class="visually-hidden ext-nt"> (opens in new tab)</span></a></li>';
     }).join("");
     return '<tr data-region="' + esc(o.region) + '" data-status="' + esc(o.status) + '">' +
       '<th scope="row" data-label="Place"><span class="rt-place">' + esc(o.place) + '</span><span class="rt-sub">' + esc(o.country) + "</span></th>" +

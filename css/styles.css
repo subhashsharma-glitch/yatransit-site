@@ -1028,3 +1028,5 @@ ol.rt-stages > li .rt-status::before { content: counter(stage) ". "; font-weight
     transition-duration: 0.001ms !important;
   }
 }
+
+a[target="_blank"]::after { content: "\2197"; content: "\2197" / ""; font-size: .75em; margin-left: .15em; display: inline-block; text-decoration: none; }
