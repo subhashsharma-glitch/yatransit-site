@@ -38,7 +38,7 @@ The news pages are plain HTML. To add one by hand:
 
 1. Re-check each source and edit `tracker/data.json`: an entry's `status` (one of the ids in `statuses`), `statusText`, `note`, `fleet` (only an officially stated figure, otherwise `null`), `sources` and `lastVerified`. Update `lastVerified` at the top and the `permits` counter.
 2. Add a dated entry to the top of `changelog` describing what changed (weekly).
-3. Update the matching rows in the pre-rendered table in `tracker.html` (the no-JS fallback), and the "Last verified" dates on the page and in the home-page teaser. (On the build machine, `_dev/build_tracker.py` regenerates `tracker.html` from the JSON.)
+3. Update the matching rows in the pre-rendered table in `tracker.html` (the no-JS fallback), and the "Last verified" dates on the page and in the home-page teaser. (On the build machine, `_dev/build_tracker.py` regenerates `tracker.html` from the JSON, including the page title "UK Robotaxi Tracker: Driverless Taxis by City (2026)" and the meta description's "Updated <date>", which comes from `lastVerified`. If you edit `tracker.html` by hand, update that date in the meta description too.)
 4. Update the `lastmod` for `tracker.html` in `sitemap.xml`.
 
 Only use facts from public sources you have checked, and link them. Don't copy data from other trackers.
