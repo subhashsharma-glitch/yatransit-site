@@ -1,6 +1,6 @@
 {
   "title": "UK & Europe Robotaxi Tracker",
-  "lastVerified": "2026-10-26",
+  "lastVerified": "2026-11-02",
   "statuses": [
     {
       "id": "announced",
@@ -70,7 +70,7 @@
           "url": "https://tfl.gov.uk/corporate/transparency/freedom-of-information/foi-request-detail?referenceId=FOI-2055-2627"
         }
       ],
-      "lastVerified": "2026-10-26"
+      "lastVerified": "2026-11-02"
     },
     {
       "id": "cambridge-connector",
@@ -111,7 +111,7 @@
           "url": "https://www.greatercambridge.org.uk/smart-technology-innovation/connector/timetable-1"
         }
       ],
-      "lastVerified": "2026-10-26"
+      "lastVerified": "2026-11-02"
     },
     {
       "id": "london-waymo",
@@ -125,7 +125,7 @@
       "statusText": "Since 14 Apr 2026",
       "fleet": null,
       "fleetNote": "Not officially stated",
-      "note": "Autonomous driving with trained specialists behind the wheel since 14 Apr 2026. Waymo said in Oct 2025 that it intends to offer rides with no human behind the wheel in London in 2026, subject to permissions.",
+      "note": "Autonomous driving with trained specialists behind the wheel since 14 Apr 2026. Waymo said in Oct 2025 that it intends to offer rides with no human behind the wheel in London in 2026, subject to permissions. On 30 Oct 2026 Waymo announced that Toyota will build Waymo-equipped bZ4X vehicles in Japan; after testing in Japan from 2027, The Verge reports they will roll out to the UK and other markets. No UK date has been given.",
       "sources": [
         {
           "label": "Waymo blog, 14 Apr 2026",
@@ -134,9 +134,13 @@
         {
           "label": "Waymo blog, 15 Oct 2025",
           "url": "https://waymo.com/blog/2025/10/hello-london-your-waymo-ride-is-arriving/"
+        },
+        {
+          "label": "The Verge, 30 Oct 2026",
+          "url": "https://www.theverge.com/transportation/1023112/waymos-next-robotaxi-is-a-purpose-built-toyota-bz4x"
         }
       ],
-      "lastVerified": "2026-10-26"
+      "lastVerified": "2026-11-02"
     },
     {
       "id": "london-baidu-lyft",
@@ -150,7 +154,7 @@
       "statusText": "Since 28 Jul 2026",
       "fleet": null,
       "fleetNote": "Not officially stated",
-      "note": "Road testing of Apollo Go RT6 vehicles with safety operators on board began on 28 Jul 2026, starting in the borough of Brent. On 22 Oct 2026 the companies showed the RT6 to the media in London. Reuters reported that they hope to have fully driverless vehicles in the city next year and are aiming for a commercial launch in 2027, subject to regulatory approvals.",
+      "note": "Road testing of Apollo Go RT6 vehicles with safety operators on board began on 28 Jul 2026, starting in the borough of Brent. On 22 Oct 2026 the companies showed the RT6 to the media in London. Reuters reported that they hope to have fully driverless vehicles in the city next year and are aiming for a commercial launch in 2027, subject to regulatory approvals. On 1 Nov 2026 the Guardian reported that about 24 Apollo Go vehicles are being tested in Brent; this is not an official fleet figure.",
       "sources": [
         {
           "label": "Lyft blog, 28 Jul 2026",
@@ -163,9 +167,13 @@
         {
           "label": "Reuters via Investing.com, 23 Oct 2026",
           "url": "https://www.investing.com/news/stock-market-news/chinas-baidu-tests-robotaxi-on-london-streets-4969173"
+        },
+        {
+          "label": "The Guardian, 1 Nov 2026",
+          "url": "https://www.theguardian.com/technology/2026/nov/01/sadiq-khan-calls-cap-numbers-robotaxis-london-streets"
         }
       ],
-      "lastVerified": "2026-10-26"
+      "lastVerified": "2026-11-02"
     },
     {
       "id": "manchester-pony-verne-uber",
@@ -194,7 +202,7 @@
           "url": "https://www.theguardian.com/technology/2026/oct/14/uber-self-driving-robotaxi-trial-manchester"
         }
       ],
-      "lastVerified": "2026-10-26"
+      "lastVerified": "2026-11-02"
     },
     {
       "id": "london-baidu-uber",
@@ -219,7 +227,7 @@
           "url": "https://www.linkedin.com/posts/uber-com_next-stop-london-baidu-incs-apollo-go-activity-7487794001094291456-Az8e"
         }
       ],
-      "lastVerified": "2026-10-26"
+      "lastVerified": "2026-11-02"
     },
     {
       "id": "london-pony-uber",
@@ -233,7 +241,7 @@
       "statusText": "Announced 8 Oct 2026",
       "fleet": null,
       "fleetNote": "Not officially stated",
-      "note": "On 8 Oct 2026 Uber announced an expansion of its partnership with Pony.ai to bring Pony.ai’s Gen-7 robotaxis to London. The companies said testing would begin in the coming weeks. They have not said who will own and operate the fleet, or when public rides could start. As of 26 Oct 2026 we have found no confirmation that testing in London has begun. On 14 Oct 2026 Uber and Pony.ai said testing had started in Manchester (listed separately).",
+      "note": "On 8 Oct 2026 Uber announced an expansion of its partnership with Pony.ai to bring Pony.ai’s Gen-7 robotaxis to London. The companies said testing would begin in the coming weeks. They have not said who will own and operate the fleet, or when public rides could start. As of 2 Nov 2026 we have found no confirmation that testing in London has begun. On 14 Oct 2026 Uber and Pony.ai said testing had started in Manchester (listed separately).",
       "sources": [
         {
           "label": "Uber on X, 8 Oct 2026",
@@ -244,7 +252,7 @@
           "url": "https://techcrunch.com/2026/10/08/uber-and-chinas-pony-ai-plan-to-launch-robotaxis-in-london/"
         }
       ],
-      "lastVerified": "2026-10-26"
+      "lastVerified": "2026-11-02"
     },
     {
       "id": "cambridge-nissan-adventure",
@@ -265,7 +273,7 @@
           "url": "https://europe.nissannews.com/en-GB/releases/nissan-launches-autonomous-drive-research-project-to-bring-future-mobility-service-to-uk-streets"
         }
       ],
-      "lastVerified": "2026-10-26"
+      "lastVerified": "2026-11-02"
     },
     {
       "id": "sunderland-oxa",
@@ -290,7 +298,7 @@
           "url": "https://www.bbc.co.uk/news/articles/cy0dr79x4xeo"
         }
       ],
-      "lastVerified": "2026-10-26"
+      "lastVerified": "2026-11-02"
     },
     {
       "id": "zagreb-verne",
@@ -327,7 +335,7 @@
           "url": "https://evwire.com/p/robotaxi-newsletter-report-9"
         }
       ],
-      "lastVerified": "2026-10-26"
+      "lastVerified": "2026-11-02"
     },
     {
       "id": "hamburg-moia",
@@ -352,7 +360,7 @@
           "url": "https://www.heise.de/en/news/VW-considers-exiting-robotaxi-service-Moia-Germany-losing-ground-11467307.html"
         }
       ],
-      "lastVerified": "2026-10-26"
+      "lastVerified": "2026-11-02"
     },
     {
       "id": "furttal-iamo",
@@ -377,7 +385,7 @@
           "url": "https://www.zh.ch/de/news-uebersicht/medienmitteilungen/2026/09/im-furttal-startet-der-passagierbetrieb-mit-selbstfahrenden-fahrzeugen.html"
         }
       ],
-      "lastVerified": "2026-10-26"
+      "lastVerified": "2026-11-02"
     },
     {
       "id": "oslo-ruter-holo",
@@ -391,7 +399,7 @@
       "statusText": "Paused since 28 Feb 2026",
       "fleet": "6 (planned)",
       "fleetNote": "Six Volkswagen ID. Buzz from autumn 2026 (Ruter); the pilot began in late 2023 with five NIO ES8",
-      "note": "Ruter paused its self-driving pilot from 28 Feb 2026 while new vehicles were brought in. Its project page (updated 15 Oct 2026) still says the service will open to passengers in September 2026, with a safety operator in the driver’s seat. As of 26 Oct 2026 we have found no announcement that it has restarted.",
+      "note": "Ruter paused its self-driving pilot from 28 Feb 2026 while new vehicles were brought in. Its project page (updated 15 Oct 2026) still says the service will open to passengers in September 2026, with a safety operator in the driver’s seat. As of 2 Nov 2026 we have found no announcement that it has restarted.",
       "sources": [
         {
           "label": "Ruter press release, 11 Feb 2026 (Norwegian)",
@@ -402,7 +410,7 @@
           "url": "https://ruter.no/om-oss/prosjekter-og-innovasjon/selvkjoringspiloten"
         }
       ],
-      "lastVerified": "2026-10-26"
+      "lastVerified": "2026-11-02"
     },
     {
       "id": "drome-beti-weride",
@@ -427,7 +435,7 @@
           "url": "https://france3-regions.franceinfo.fr/auvergne-rhone-alpes/drome/on-eprouve-un-sentiment-de-securite-correct-meme-si-ca-fait-bizarre-la-navette-sans-chauffeur-et-autonome-en-derniere-phase-de-test-a-valence-3326813.html"
         }
       ],
-      "lastVerified": "2026-10-26"
+      "lastVerified": "2026-11-02"
     },
     {
       "id": "berlin-bvg-nowel4",
@@ -456,7 +464,7 @@
           "url": "https://www.zeit.de/news/2026-07/26/autonome-kleinbusse-verzoegerungen-bei-bvg-projekt"
         }
       ],
-      "lastVerified": "2026-10-26"
+      "lastVerified": "2026-11-02"
     },
     {
       "id": "eastern-switzerland-amigo",
@@ -481,7 +489,7 @@
           "url": "https://www2.postauto.ch/de/ueber-uns-und-aktuelles/innovation/automatisiertes-fahren/amigo/amigo-news/2026/amigo-projektupdate-herbst-2026"
         }
       ],
-      "lastVerified": "2026-10-26"
+      "lastVerified": "2026-11-02"
     },
     {
       "id": "hamburg-hochbahn-holon",
@@ -510,7 +518,7 @@
           "url": "https://www.kba.de/DE/Themen/Typgenehmigung/Autonomes_automatisiertes_Fahren/Erprobungsgenehmigung/dl_liste_erprobungsgenehmigungen.pdf?__blob=publicationFile&v=7"
         }
       ],
-      "lastVerified": "2026-10-26"
+      "lastVerified": "2026-11-02"
     },
     {
       "id": "munich-uber-autobrains",
@@ -539,7 +547,7 @@
           "url": "https://www.kba.de/DE/Themen/Typgenehmigung/Autonomes_automatisiertes_Fahren/Erprobungsgenehmigung/dl_liste_erprobungsgenehmigungen.pdf?__blob=publicationFile&v=7"
         }
       ],
-      "lastVerified": "2026-10-26"
+      "lastVerified": "2026-11-02"
     },
     {
       "id": "luxembourg-bolt-pony-stellantis",
@@ -568,7 +576,7 @@
           "url": "https://www.niederanven.lu/en/news/ficheactualites/2026-10-12/pilot-project-for-autonomous-vehicles-in-our-commune"
         }
       ],
-      "lastVerified": "2026-10-26"
+      "lastVerified": "2026-11-02"
     },
     {
       "id": "munich-uber-momenta",
@@ -601,7 +609,7 @@
           "url": "https://www.finanznachrichten.de/nachrichten-2026-10/69750815-uber-startet-pilotbetrieb-fuer-robotaxis-in-muenchen-003.htm"
         }
       ],
-      "lastVerified": "2026-10-26"
+      "lastVerified": "2026-11-02"
     },
     {
       "id": "munich-waymo",
@@ -622,7 +630,32 @@
           "url": "https://waymo.com/blog/2026/08/waymo-in-munich"
         }
       ],
-      "lastVerified": "2026-10-26"
+      "lastVerified": "2026-11-02"
+    },
+    {
+      "id": "germany-tensor-mtz",
+      "region": "Europe",
+      "place": "Munich and other German cities",
+      "country": "Germany",
+      "operator": "Münchner Taxi Zentrum (MTZ) with Tensor",
+      "type": "Robotaxi (taxi operator-run)",
+      "status": "announced",
+      "since": "2026-10-27",
+      "statusText": "Announced 27 Oct 2026 (letter of intent)",
+      "fleet": "Up to 500 (planned)",
+      "fleetNote": "Initial fleet of up to 500 Tensor Robocars in German cities, subject to definitive agreements and Level 4 approval in Germany (Tensor/MTZ)",
+      "note": "On 27 Oct 2026 Tensor and Münchner Taxi Zentrum (MTZ), which describes itself as Munich’s largest taxi operator, announced a letter of intent for MTZ to run Tensor Robocars as autonomous taxis under its own brand, booked through its existing dispatch system. The plan depends on final agreements and on Level 4 regulatory approval in Germany. No start date or test date has been given.",
+      "sources": [
+        {
+          "label": "Tensor/MTZ press release (PR Newswire), 27 Oct 2026",
+          "url": "https://www.prnewswire.com/news-releases/tensor-and-munchner-taxi-zentrum-sign-loi-to-put-taxi-operators-at-the-center-of-autonomous-mobility-in-germany-302921301.html"
+        },
+        {
+          "label": "The Next Web, 27 Oct 2026",
+          "url": "https://thenextweb.com/news/tensor-mtz-munich-robotaxis-germany"
+        }
+      ],
+      "lastVerified": "2026-11-02"
     },
     {
       "id": "madrid-weride-uber",
@@ -655,7 +688,7 @@
           "url": "https://cadenaser.com/cmadrid/2026/10/05/una-ventana-de-furgonetas-mapean-madrid-y-alcobendas-para-la-llegada-de-los-primeros-taxis-autonomos-de-espana-ser-madrid-norte/"
         }
       ],
-      "lastVerified": "2026-10-26"
+      "lastVerified": "2026-11-02"
     },
     {
       "id": "madrid-waymo",
@@ -680,7 +713,7 @@
           "url": "https://waymo.com/waymo-in-spain/"
         }
       ],
-      "lastVerified": "2026-10-26"
+      "lastVerified": "2026-11-02"
     },
     {
       "id": "zurich-weride-uber",
@@ -709,14 +742,14 @@
           "url": "https://www.watson.ch/schweiz/auto/219309270-das-zuercher-robotaxi-von-uber-verzoegert-sich"
         }
       ],
-      "lastVerified": "2026-10-26"
+      "lastVerified": "2026-11-02"
     }
   ],
   "permits": {
     "label": "UK driverless passenger permits granted",
     "value": 0,
-    "asOf": "2026-10-26",
-    "note": "No automated passenger services (APS) permit has been announced. On 1 Oct 2026 Covington’s Global Policy Watch reported that permits for the first automated passenger services were “yet to be granted”, and that as of late September no operator had applied for a driverless permit. In an FOI response published on 4 Sep 2026, TfL said it had received no formal APS consent requests. On 9 Oct 2026 the London Assembly Transport Committee recommended that the power to issue APS permits in London be devolved to TfL when the full regulations are in place in 2027; these are recommendations, not new rules. On 14 Oct 2026 Transport for Greater Manchester told the Guardian that no applications had been made to operate driverless taxis in Greater Manchester. On 12 Oct 2026 the DfT said in a written answer that, where an automated passenger service resembles a taxi or private hire service, the local licensing authority must consent before a permit can be granted. Reporting on TfL’s 21 Oct 2026 evidence to the London Assembly, Highways Magazine said no vehicles are yet listed under the Automated Vehicles Act 2024.",
+    "asOf": "2026-11-02",
+    "note": "No automated passenger services (APS) permit has been announced. On 1 Oct 2026 Covington’s Global Policy Watch reported that permits for the first automated passenger services were “yet to be granted”, and that as of late September no operator had applied for a driverless permit. In an FOI response published on 4 Sep 2026, TfL said it had received no formal APS consent requests. On 9 Oct 2026 the London Assembly Transport Committee recommended that the power to issue APS permits in London be devolved to TfL when the full regulations are in place in 2027; these are recommendations, not new rules. On 14 Oct 2026 Transport for Greater Manchester told the Guardian that no applications had been made to operate driverless taxis in Greater Manchester. On 12 Oct 2026 the DfT said in a written answer that, where an automated passenger service resembles a taxi or private hire service, the local licensing authority must consent before a permit can be granted. Reporting on TfL’s 21 Oct 2026 evidence to the London Assembly, Highways Magazine said no vehicles are yet listed under the Automated Vehicles Act 2024. On 1 Nov 2026 the Guardian reported that the Mayor of London, Sadiq Khan, wants a cap on robotaxi numbers and more powers for TfL, which under current rules can only give or refuse consent. A written parliamentary question (UIN 38069, tabled 26 Oct 2026) asking how many operators have applied for and been granted APS permits was still awaiting an answer when we checked on 2 Nov 2026.",
     "sources": [
       {
         "label": "Global Policy Watch (Covington), 1 Oct 2026",
@@ -725,6 +758,14 @@
       {
         "label": "Highways Magazine, 21 Oct 2026",
         "url": "https://www.highwaysmagazine.co.uk/innovation-and-strategy/robotaxi-rollout-london-delayed-tfl-tells-london-assembly"
+      },
+      {
+        "label": "The Guardian, 1 Nov 2026",
+        "url": "https://www.theguardian.com/technology/2026/nov/01/sadiq-khan-calls-cap-numbers-robotaxis-london-streets"
+      },
+      {
+        "label": "UK Parliament written question 38069, tabled 26 Oct 2026",
+        "url": "https://questions-statements.parliament.uk/written-questions/detail/2026-10-26/38069"
       },
       {
         "label": "DM News, 14 Oct 2026 (on the DfT’s 12 Oct written answer)",
@@ -749,6 +790,18 @@
     ]
   },
   "changelog": [
+    {
+      "date": "2026-11-02",
+      "title": "Weekly review: one entry added, no status changes",
+      "items": [
+        "No status changes to existing entries; all 24 existing entries re-checked against their sources on 2 Nov 2026.",
+        "Added: Münchner Taxi Zentrum (MTZ) with Tensor in Munich and other German cities (Announced, 27 Oct 2026). It is a letter of intent for up to 500 Robocars, subject to final agreements and Level 4 approval in Germany.",
+        "London (Waymo): Waymo said on 30 Oct 2026 that Toyota will build Waymo-equipped bZ4X vehicles, to be tested in Japan from 2027 and then rolled out to the UK and other markets. No UK date. Status stays at Testing with safety driver.",
+        "London (Baidu Apollo Go with Freenow by Lyft): the Guardian reported on 1 Nov 2026 that about 24 vehicles are being tested in Brent (not an official fleet figure). Status stays at Testing with safety driver.",
+        "London (Pony.ai with Uber): still no confirmed start of testing. Oslo (Ruter): still no confirmed restart. Munich (Momenta with Uber): still no confirmed start of testing. Hamburg (MOIA): still no official statement on the service’s future.",
+        "UK driverless passenger permits granted: still 0. Added the Mayor of London’s 1 Nov 2026 call for a cap on robotaxi numbers, and a parliamentary question on APS permit applications that is still awaiting an answer."
+      ]
+    },
     {
       "date": "2026-10-26",
       "title": "Weekly review: one entry added, no status changes",
